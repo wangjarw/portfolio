@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="device-width, initial-scale = 1">
+  <title>Jar Hsuan Sherry Wang: portfolio</title>
+
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Brawler" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="body-container">
+    <div class="title-nav-structure">
+
+      <h1 class="styleguide-title">Portfolio Styleguide</h1>
+
+      <nav class="list-container">
+        <a href="portfolio.html" class="list-item">Portfolio pages</a>
+        <a href="Style_guide.html" class="list-item">Style Guide</a>
+        <a href="Citations.html" class="list-item">Citations</a>
+        <a href="#interactive_elements" class="list-item">Interactive Elements</a>
+        <a href="#text_elements" class="list-item">Text Elements</a>
+        <a href="#combined_elements" class="list-item">Combined Elements</a>
+      </nav>
+
+    </div>
+
+    <div class="body-content">
+
+      <section>
+
+        <h2>Colours</h2>
+        <p>The colour combination I decide to go for is gray, blue, purple and amber colour. Due to the facts that the target audience for this company is mainly for people from the middle age to elderly people, the overall design should look calm and believable. This consideration is the reason why blue is selected as the main colour scheme. Although green is typically used to represent organic healthy food but colour blindness is being taking into consideration. Hence, it is avoided. Most of the sections would be in gray and only the parts that are emphasized or the bigger headers would be in blue to draw attention. High contrast is the basic idea I am aiming for. Hyperlinks would also be in colour and underlined.[some info can back up this ideas and these would be included in the citation page.]</p>
+      </section>
+
+
+      <!-- INTERACTIVE ELEMENTS SECTION // -->
+      <section id="interactive_elements">
+
+        <!-- Default Button styling section -->
+        <section>
+
+          <h2>Navigation Button</h2>
+
+          <h3>CSS selector:</h3>
+          <p>.button-nav, .button-nav:hover, .button-nav:focus</p>
+
+          <h3>Sample code:</h3>
+          <code>
+            html:<br>
+            &lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;
+          </code>
+
+          <code>
+            //////////////////
+          </code>
+
+          <h3>Rendered element:</h3>
+          <a class="button-nav" href="#">Navigation Button</a>
+
+        </section>
+
+        <section>
+          <h2>In-text link</h2>
+          <h3>CSS selector:</h3>
+          <p>.in-text, .in-text:hover, .in-text:focus</p>
+
+          <h3>Sample code:</h3>
+          <code>html:<br>
+            &lt;a href="#" class="in-text"&gt;Default Link&lt;/a&gt;
+          </code>
+          <code>
+            css:<br>
+            .in-text{<br>
+              font-family: 'Brawler', serif;<br>
+              max-width:70%;<br>
+              line-height:1.5rem;<br>
+              text-decoration:none;<br>
+              color:#5669ac;<br>
+              font-weight:bold;<br>
+
+              -webkit-transition: color 0.3s ease-in, text-decoration 0.3s ease-in;<br>
+              transition:  color 0.3s ease-in, text-decoration 0.3s ease-in;<br>
+            }
+            <br>
+            .in-text:hover, .in-text:focus{<br>
+              color:#d89a41;<br>
+            }
+          </code>
+
+          <h3>Rendered element:</h3>
+          <a class="in-text" href="#">Default Link</a>
+        </section>
+
+        <section>
+          <h2>Text fields with labels</h2>
+          <h3>CSS selector:</h3>
+          <p>form, form input, form input[type^=text]</p>
+
+          <h3>Sample code:</h3>
+          <code>html: <br>
+            &lt;form&gt; <br>
+            First Name: &lt;input type="text" placeholder="Please type your first name..."&gt;<br>
+            Last Name: &lt;input type="text" placeholder="Please type your last name..."&gt;<br>
+            &lt;/form&gt;<br>
+          </code>
+          <code>
+            css: <br>
+            form{<br>
+              font-family:'Ubuntu' ,sans-sans-serif;<br>
+              color:#888888;<br>
+            }<br>
+
+            form input{<br>
+              font-family: 'Brawler', serif;<br>
+              font-size:1rem;<br>
+              padding: 0.2rem 0.2rem;<br>
+
+            }<br>
+
+            form input[type^=text]{<br>
+              border-radius:0.8rem;<br>
+              border: 0.1rem solid #653e8a;<br>
+              margin:0.8rem 0.5rem;<br>
+            }
+          </code>
+
+
+          <h3>Rendered element:</h3>
+          <form>
+            First Name: <br>
+            <input type="text" placeholder="Please type your first name...">
+            <br>
+            Last Name: <br>
+            <input type="text" placeholder="Please type your last name...">
+          </form>
+
+        </section>
+
+        <section>
+          <h2>Submit/Reset Buttons</h2>
+          <h3>CSS selector:</h3>
+          <p>.submit-reset-button-style, .submit-reset-button-style:hover, .submit-reset-button-style:focus</p>
+
+          <h3>Sample code:</h3>
+          <code>
+            html: <br>
+            &lt;input type="submit" value="Submit Button" class="submit-reset-button-style"&gt;<br>
+            &lt;input type="reset" value="Reset Button" class="submit-reset-button-style"&gt;<br>
+          </code>
+          <code>
+            css: <br>
+            .submit-reset-button-style{<br>
+              display: inline-block;<br>
+              font-family:'Ubuntu' ,sans-sans-serif;<br>
+              padding: 0.5em 0.75em;<br>
+              color: #d89a41;<br>
+              background-color: #653e8a;<br>
+              border-radius: 1em;<br>
+              border:none;<br>
+              margin: 0.3rem 0;<br>
+              -webkit-transition:  color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;<br>
+              transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;<br>
+            }
+            <br>
+
+            .submit-reset-button-style:hover, .submit-reset-button-style:focus{ <br>
+              color: #653e8a;<br>
+              border-color:#653e8a;<br>
+              background-color: #ffffff;<br>
+
+            }
+          </code>
+
+          <h3>Rendered element:</h3>
+          <form>
+            First Name: <br>
+            <input type="text" placeholder="Please type your first name...">
+            <br>
+            Last Name: <br>
+            <input type="text" placeholder="Please type your last name...">
+            <br>
+            <input type="submit" value="Submit Button" class="submit-reset-button-style">
+            <input type="reset" value="Reset Button" class="submit-reset-button-style">
+          </form>
+
+          <h2>Normal Button</h2>
+          <h3>CSS selector:</h3>
+          <p>.button-style</p>
+
+          <h3>Sample code:</h3>
+
+          <code>html:<br>
+            &lt;button class="button-style"&gt;Add To Cart&lt;/button&gt;
+          </code>
+          <code>css: <br>
+            .button-style{ <br>
+              display: inline-block;<br>
+              font-family:'Ubuntu' ,sans-sans-serif;<br>
+              padding: 0.5em 0.75em;<br>
+              color: #ffffff;<br>
+              background-color: #653e8a;<br>
+              border-radius: 1rem;<br>
+              border-style:solid;<br>
+              border-width:thin;<br>
+              border-color:#ffffff;<br>
+              -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;<br>
+              transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;<br>
+            }<br>
+
+            .button-style:hover, .button-style:focus{<br>
+
+              background-color: #ffffff;<br>
+              color:#d89a41;<br>
+              border-color:#d89a41;<br>
+            }
+          </code>
+
+          <h3>Rendered element:</h3>
+          <button class="button-style">Add To Cart</button>
+        </section>
+      </section>
+      <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+      <!-- TEXT ELEMENTS SECTION // -->
+      <section id="text_elements">
+
+        <section>
+          <h2>Headings</h2>
+          <h3>CSS selector:</h3>
+          <p>h1, h2, h3</p>
+
+          <h3>Sample code:</h3>
+          <code>
+            html:<br>
+            &lt;h1&gt;Heading1&lt;/h1&gt;<br>
+            &lt;h2&gt;Heading2&lt;/h2&gt;<br>
+            &lt;h3&gt;Heading3&lt;/h3&gt;<br>
+          </code>
+          <code>
+            css:<br>
+            h1{<br>
+              font-family:'Ubuntu' ,sans-sans-serif;<br>
+              color:#5669ac;<br>
+            }<br>
+
+            h2 {<br>
+              margin-top: 0;<br>
+              margin-bottom: 0.5em;<br>
+              color:#5669ac;<br>
+              font-family:'Ubuntu' ,sans-sans-serif;<br>
+              font-weight: 400;<br>
+            }<br>
+
+            h3{<br>
+              margin-bottom: 0;<br>
+              font-family:'Ubuntu' ,sans-sans-serif;<br>
+              font-weight: 400;<br>
+              color:#888888;<br>
+              padding-bottom:1rem;<br>
+            }
+          </code>
+
+          <h3>Rendered element:</h3>
+          <h1>Heading1</h1>
+          <h2>Heading2</h2>
+          <h3>Heading3</h3>
+
+        </section>
+
+        <section>
+          <h2>Paragraphs</h2>
+          <h3>CSS selector:</h3>
+          <p>p (in this part, I create classes so that the styling is only going to be applied at this part. The classes are: ".sample-para" and ".personal-story")</p>
+
+          <h3>Sample code:</h3>
+          <code>
+            html:<br>
+            &lt;p&gt; class="sample-para">Joy Health Solutions is an online centre that focuses on promoting people’s mental and physical health. In order to deliver correct healthy habit and knowledge, the site has professional mini courses and various resources to help the customers to build correct understandings. This site also provides health related products and services from various partnered companies with corresponding correct health knowledge. Moreover, this health centre also establishes a community that collectively promotes the idea of being healthy.&lt;/p&gt; <br><br>
+            &lt;p class="sample-para personal-story">Leila's personal story on weight loss...&lt;/p&gt;
+          </code>
+          <code>
+            css: <br>
+            .sample-para{<br>
+              font-family: 'Brawler', serif;<br>
+              max-width:70%;<br>
+              line-height:1.5rem;<br>
+            }<br>
+
+            .personal-story{<br>
+              color:black;<br>
+              padding: 1.5rem 1rem;<br>
+              border-radius:1rem;<br>
+              font-style:italic;<br>
+              background-color:#e0e0e0;<br>
+            }
+
+          </code>
+
+          <h3>Rendered element:</h3>
+          <h4>normal paragraph</h4>
+          <p class="sample-para">Joy Health Solutions is an online centre that focuses on promoting people’s mental and physical health. In order to deliver correct healthy habit and knowledge, the site has professional mini courses and various resources to help the customers to build correct understandings. This site also provides health related products and services from various partnered companies with corresponding correct health knowledge. Moreover, this health centre also establishes a community that collectively promotes the idea of being healthy.</p>
+          <h4>personal story/ testimonial</h4>
+          <p class="sample-para personal-story">Leila's personal story on weight loss...</p>
+        </section>
+
+        <section>
+          <h2>Bulleted Lists</h2>
+          <h3>CSS selector:</h3>
+          <p>.styling-bullet</p>
+
+          <h3>Sample code:</h3>
+          <code>
+            html:<br>
+            &lt;ul class="styling-bullet"&gt;<br>
+            &lt;li>Exploring nutrients&lt;/li&gt;<br>
+            &lt;li>Processed food and non-processed food&lt;/li&gt;<br>
+            &lt;/ul&gt;
+          </code>
+          <code>
+            css:<br>
+            .styling-bullet{<br>
+              list-style-type: square;<br>
+              font-family:'Ubuntu' ,sans-sans-serif;<br>
+              color:#888888;<br>
+              font-size:1.1rem;<br>
+              line-height:1.8rem;<br>
+            }
+          </code>
+
+          <h3>Rendered element:</h3>
+          <ul class="styling-bullet">
+            <li>Exploring nutrients</li>
+            <li>Processed food and non-processed food</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Numbered Lists</h2>
+          <h3>CSS selector:</h3>
+          <p>.styling-ordered</p>
+
+          <h3>Sample code:</h3>
+          <code>
+            html:<br>
+            &lt;ol class="styling-ordered"&gt; <br>
+            &lt;li>Exploring nutrients&lt;/li&gt;<br>
+            &lt;li>Processed food and non-processed food&lt;/li&gt;<br>
+            &lt;li>The epidemic: obesity&lt;/li&gt;<br>
+            &lt;/ol&gt;
+          </code>
+          <code>
+            css: <br>
+            .styling-ordered{<br>
+              font-family:'Ubuntu' ,sans-sans-serif;<br>
+              color:#888888;<br>
+              font-size:1.1rem;<br>
+              line-height:1.8rem;<br>
+            }
+          </code>
+
+          <h3>Rendered element:</h3>
+          <ol class="styling-ordered">
+            <li>Exploring nutrients</li>
+            <li>Processed food and non-processed food</li>
+            <li>The epidemic: obesity</li>
+          </ol>
+        </section>
+
+      </section>
+      <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+      <!-- COMBINED ELEMENTS SECTION // -->
+      <section id="combined_elements">
+
+        <section>
+          <h2>Main Navigation</h2>
+          <h3>CSS selector:</h3>
+          <p>.nav-container, .nav-attached-logo, .nav-item-structure</p>
+          <h3>Sample code:</h3>
+          <code>
+            html:<br>
+            &lt;div class="nav-container"&gt;<br>
+            &lt;div class="nav-item-structure"&gt;<br>
+            &lt;img src="image/logo.png" alt="logo" class="nav-attached-logo"&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;a class="button-nav nav-item-structure" href="#"Products&lt;/a&gt;<br>
+            &lt;a class="button-nav nav-item-structure" href="#"&gt;Online Resources&lt;/a&gt;<br>
+            &lt;a class="button-nav nav-item-structure" href="#"&gt;Opportunity&lt;/a&gt;<br>
+            &lt;a class="button-nav nav-item-structure" href="#"&gt;Perosnal Story&lt;/a&gt;<br>
+            &lt;a class="button-nav nav-item-structure" href="#"&gt;Company Overview&lt;/a&gt;<br>
+            &lt;/div&gt;<br>
+            css:<br>
+            .nav-attached-logo{<br>
+              display:inline-block;<br>
+              vertical-align:top;<br>
+            }<br>
+          </code>
+          <p>The gird structure is also presented through main navigation.</p>
+          <code>
+            //////////////
+          </code>
+
+          <h3>Rendered element:</h3>
+          <div class="nav-container">
+            <div class="nav-item-structure">
+              <img src="image/logo.png" alt="logo" class="nav-attached-logo">
+            </div>
+            <a class="button-nav nav-item-structure" href="#">Products</a>
+            <a class="button-nav nav-item-structure" href="#">Online Resources</a>
+            <a class="button-nav nav-item-structure" href="#">Opportunity</a>
+            <a class="button-nav nav-item-structure" href="#">Perosnal Story</a>
+            <a class="button-nav nav-item-structure" href="#">Company Overview</a>
+          </div>
+        </section>
+
+        <section>
+          <h2>Project Listing</h2>
+          <p>Within Html, I use &lt;p&gt; to present the product titles and the prices. I personally think it does not make sense to use &lt;h1&gt; - &lt;h4&gt; and &lt;figurecap&gt; to represent the ideas since I do not really know what hierarchical level that the product name belongs to and the product titles/prices are not just captions of the images. Hence, I decided to use &lt;p&gt;</p>
+          <h3>CSS selector:</h3>
+          <p>.</p>
+
+          <h3>Sample code:</h3>
+          <code>
+            ////
+          </code>
+
+          <p>The gird structure is also presented through product listing.</p>
+          <code>
+            ////////////////
+          </code>
+
+          <h3>Rendered elements:</h3>
+          <div class="product-container">
+            <div class="product-structure">
+              <img src="image/product.png" alt="Moisturizing Day Cream" class="product-img">
+              <p class="product-name">Moisturizing Day Cream</p>
+              <p>$35.00</p>
+              <img src="image/star.png" alt="rating" class="rating-img">
+              <img src="image/star.png" alt="rating" class="rating-img">
+              <img src="image/star.png" alt="rating" class="rating-img">
+            </div>
+            <div class="product-structure">
+              <img src="image/product2.png" alt="Essential Youth Serum" class="product-img">
+              <p class="product-name">Essential Youth Serum</p>
+              <p>$20.00</p>
+              <img src="image/star.png" alt="rating" class="rating-img">
+              <img src="image/star.png" alt="rating" class="rating-img">
+            </div>
+            <div class="product-structure">
+              <img src="image/product.png" alt="Moisturizing Day Cream" class="product-img">
+              <p class="product-name">Moisturizing Day Cream</p>
+              <p>$35.00</p>
+              <img src="image/star.png" alt="rating" class="rating-img">
+              <img src="image/star.png" alt="rating" class="rating-img">
+              <img src="image/star.png" alt="rating" class="rating-img">
+            </div>
+            <div class="product-structure">
+              <img src="image/product3.png" alt="Essential Youth Serum" class="product-img">
+              <p class="product-name">Essential Youth Serum</p>
+              <p>$20.00</p>
+              <img src="image/star.png" alt="rating" class="rating-img">
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Grid Structure</h2>
+          <p>How the grid strucuture changes throughout different sizes is demostrated in main navigation, product listing and colour swatches.Normally in bigger sized screen, the underlying grid consists 6 colunms and for the most of the time, the content occupies 4 columns (about 60% of the width). On the other hand, the grid structure becomes 2 columns when the screen shrinks into middle size and then eventually eveything gets into a single column in the smallest size.</p>
+        </section>
+
+        <section>
+          <h2>Colour Swatches</h2>
+          <h3>Primary Colours</h3>
+          <div class="color-container">
+            <div class="colour-structure">
+              <div class="first-colour colour-box"></div>
+              <p class="swatch">#5669ac</p>
+              <p>for bigger headings and main navigation</p>
+            </div>
+            <div class="colour-structure">
+              <div class="second-colour colour-box"></div>
+              <p class="swatch">#653e8a</p>
+              <p>for buttons</p>
+            </div>
+            <div class="colour-structure">
+              <div class="third-colour colour-box"></div>
+              <p class="swatch">#888888</p>
+              <p>for h3/h4 headings and icons</p>
+            </div>
+            <div class="colour-structure">
+              <div class="forth-colour colour-box"></div>
+              <p class="swatch">#e0e0e0</p>
+              <p>for borders and the background colour of the personal story section</p>
+            </div>
+          </div>
+          <h3>Secondary Colours</h3>
+          <div class="color-container">
+            <div class="colour-structure">
+              <div class="fifth-colour colour-box"></div>
+              <p class="swatch">#d89a41</p>
+              <p>for buttons, icons, in-text link and imagery</p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+  </div>
+
+  <!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+
+</body>
+</html>

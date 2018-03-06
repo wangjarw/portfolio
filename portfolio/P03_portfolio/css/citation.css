@@ -1,0 +1,107 @@
+body {
+  padding-top: 4rem;
+  padding-left:2.5rem;
+  background-color:#d89a41;
+}
+
+.body-container{
+  background-color:white;
+  border-radius:1rem;
+}
+
+.body-content{
+  padding-left:2rem;
+}
+
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 1em 0;
+}
+
+h1{
+
+  font-family:'Ubuntu' ,sans-sans-serif;
+  color:#5669ac;
+
+}
+
+.company-title{
+  font-size:2rem;
+  text-align: right;
+  padding-right:0.5rem;
+}
+
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color:#5669ac;
+  font-family:'Ubuntu' ,sans-sans-serif;
+  font-weight: 400;
+}
+
+section p {
+  margin-top: 1rem;
+}
+
+p{
+  font-family:'Brawler', serif;
+  max-width:70%;
+  line-height:1.5rem;
+}
+
+nav {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  font-family:'Ubuntu' ,sans-sans-serif;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+.list-item{
+  display:inline-block;
+  text-decoration:none;
+  color:#5669ac;
+  -webkit-transition: color 0.3s ease-in;
+  transition:  color 0.3s ease-in;
+
+  text-align:right;
+  padding-right:0.5rem;
+}
+
+.list-item:hover, .list-item:focus{
+  color:#d89a41;
+}
+
+ul.citations {
+  display:inline-block;
+  margin-left: 0.25em;
+  padding-left: 0.25em;
+}
+
+ul.citations li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 1em;
+}
+
+ul.citations li strong {
+  font-weight: normal;
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}
+
+/*----------------*/
+
+@media(min-width:26.25em){
+  .company-title{
+    font-size:4rem;
+  }
+}

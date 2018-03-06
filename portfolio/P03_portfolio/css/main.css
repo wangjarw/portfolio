@@ -1,0 +1,398 @@
+/*
+STYLE GUIDE STYLING
+Default styling for the style guide
+*/
+body {
+  padding-top: 4rem;
+  background-color:#5669ac;
+}
+
+.body-container{
+  background-color:white;
+}
+
+.body-content{
+  padding-left:2rem;
+}
+
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 1em 0;
+}
+
+h1{
+
+  font-family:'Ubuntu' ,sans-sans-serif;
+  color:#5669ac;
+
+}
+
+.styleguide-title{
+  display:inline-block;
+  font-size:2rem;
+  padding-left:0;
+
+}
+
+.title-nav-structure{
+  padding-left:2rem;
+}
+
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color:#5669ac;
+  font-family:'Ubuntu' ,sans-sans-serif;
+  font-weight: 400;
+}
+
+section h3{
+  margin-bottom: 0;
+  font-family:'Ubuntu' ,sans-sans-serif;
+  font-weight: 400;
+  color:#888888;
+  padding-bottom:1rem;
+}
+
+h4{
+  margin-bottom: 0;
+  font-family:'Ubuntu' ,sans-sans-serif;
+  font-weight: 400;
+  color:#888888;
+  padding-bottom:1rem;
+
+}
+
+section p {
+  margin-top: 1rem;
+}
+
+p{
+  font-family:'Brawler', serif;
+  max-width:60%;
+  line-height:1.5rem;
+}
+
+nav {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  font-family:'Ubuntu' ,sans-sans-serif;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+.list-item{
+  display:inline-block;
+  text-decoration:none;
+  color:#5669ac;
+  -webkit-transition: color 0.3s ease-in;
+  transition:  color 0.3s ease-in;
+
+  text-align:left;
+}
+
+.list-item:hover, .list-item:focus{
+  color:#d89a41;
+}
+
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+  max-width:100%
+}
+
+
+.product-img, .nav-attached-logo{
+  display:inline-block;
+  max-width:100%;
+}
+
+.icon-size{
+  display:inline-block;
+  max-width:100%;
+}
+
+ul.citations li{
+  list-style-type:none;
+  padding:0.5rem 0;
+  font-family:'Ubuntu' ,sans-sans-serif;
+}
+
+ul{
+    max-width:75%;
+}
+
+/*
+INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  font-family:'Ubuntu' ,sans-sans-serif;
+  padding: 1em 0.75em;
+  color: #FFF;
+  background-color: #5669ac;
+  border-radius: 0.5em;
+  border-style:solid;
+  border-width:thin;
+  border-color:#ffffff;
+  text-decoration: none;
+  -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+  transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #ffffff;
+  color:#d89a41;
+  border-color:#d89a41;
+}
+
+.in-text{
+  font-family: 'Brawler', serif;
+  max-width:70%;
+  line-height:1.5rem;
+  text-decoration:none;
+  color:#5669ac;
+  font-weight:bold;
+
+  -webkit-transition: color 0.3s ease-in, text-decoration 0.3s ease-in;
+  transition:  color 0.3s ease-in, text-decoration 0.3s ease-in;
+
+}
+
+.in-text:hover, .in-text:focus{
+  color:#d89a41;
+}
+
+.submit-reset-button-style{
+
+  display: inline-block;
+  font-family:'Ubuntu' ,sans-sans-serif;
+  padding: 0.5em 0.75em;
+  color: #ffffff;
+  background-color: #653e8a;
+  border-radius: 0.5rem;
+  border-style:solid;
+  border-color:#ffffff;
+  border-width:thin;
+  margin: 0.3rem 0;
+
+
+  -webkit-transition:  color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
+}
+
+.submit-reset-button-style:hover, .submit-reset-button-style:focus{
+
+  color: #653e8a;
+  border-color:#653e8a;
+  background-color: #ffffff;
+
+}
+
+.button-style{
+
+  display: inline-block;
+  font-family:'Ubuntu' ,sans-sans-serif;
+  padding: 0.5em 0.75em;
+  color: #ffffff;
+  background-color: #653e8a;
+  border-radius: 1rem;
+  border-style:solid;
+  border-width:thin;
+  border-color:#ffffff;
+
+
+  -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+  transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.button-style:hover, .button-style:focus{
+
+  background-color: #ffffff;
+  color:#d89a41;
+  border-color:#d89a41;
+
+}
+
+
+form{
+  font-family:'Ubuntu' ,sans-sans-serif;
+  color:#888888;
+
+}
+
+form input{
+  font-family: 'Brawler', serif;
+  font-size:1rem;
+  padding: 0.2rem 0.2rem;
+
+}
+
+form input[type^=text]{
+  border-radius:0.4rem;
+  border: 0.1rem solid #653e8a;
+  margin:0.8rem 0.5rem;
+}
+
+/*
+TEXT ELEMENTS -------------------
+*/
+.sample-para{
+  font-family: 'Brawler', serif;
+  max-width:70%;
+  line-height:1.5rem;
+
+}
+
+.personal-story{
+  color:black;
+  padding: 1.5rem 1rem;
+  border-radius:1rem;
+  font-style:italic;
+  background-color:#e0e0e0;
+}
+
+.styling-bullet{
+  list-style-type: square;
+  font-family:'Ubuntu' ,sans-sans-serif;
+  color:#888888;
+  font-size:1.1rem;
+  line-height:1.8rem;
+}
+
+.styling-ordered{
+  font-family:'Ubuntu' ,sans-sans-serif;
+  color:#888888;
+  font-size:1.1rem;
+  line-height:1.8rem;
+}
+
+
+/*
+COMBINED ELEMENTS -------------------
+*/
+
+
+.rating-img{
+  max-width:10%;
+}
+
+.product-img{
+  border-style:solid;
+  border-width: 0.1rem;
+  border-color:#e0e0e0;
+  border-radius:0.8rem;
+}
+
+.nav-attached-logo{
+  display:inline-block;
+  vertical-align:top;
+
+}
+
+.product-name{
+  font-weight:bold;
+  color:#5669ac;
+}
+
+
+/*swatches*/
+
+.colour-box{
+  width:100%;
+  height:4.5rem;
+}
+
+.first-colour{
+  background-color: #5669ac;
+
+}
+
+.second-colour{
+  background-color: #653e8a;
+}
+
+.third-colour{
+  background-color:#888888;
+}
+
+.forth-colour{
+  background-color:#e0e0e0;
+}
+
+
+
+.fifth-colour{
+  background-color: #d89a41;
+}
+
+.swatch{
+  padding-top:0.5rem;
+  font-weight:bold;
+}
+
+/*////////////////*/
+
+@media(min-width:50.25em){
+
+  section code {
+    background-color: #EEE;
+    padding: 0.5em 0.75em;
+    display: block;
+    max-width:50%;
+  }
+
+}
+
+@media(min-width:75em){
+
+  .rating-img{
+    max-width:25%;
+  }
+
+
+}
+
+@media(min-width:29.687em){
+
+  .rating-img{
+    max-width:13%;
+  }
+
+
+}
+
+@media(min-width:48.75em) and (max-width:75em){
+  .nav-attached-logo{
+    max-width:95%;
+    padding-top:0.5rem;
+    vertical-align:middle;
+  }
+
+}
+
+@media(min-width:26.25em){
+  .company-title{
+    font-size:4rem;
+  }
+}
+
+@media(min-width:31.25em) and (max-width:75em){
+  .icon-size{
+    max-width: 60%;
+  }
+}
+
+@media(min-width:75em){
+  .icon-size{
+    max-width: 40%;
+  }
+}
