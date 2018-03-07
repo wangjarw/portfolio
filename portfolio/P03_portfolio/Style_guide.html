@@ -45,17 +45,19 @@
             <h2>Navigation Button</h2>
 
             <h3>CSS selector:</h3>
-            <p>.main-nav, .main-nav:hover, .main-nav:focus</p>
+            <p>.main-nav, .main-nav:before, .main-nav:before:hover, .main-nav:before:focus</p>
 
             <h3>Sample code:</h3>
             <code>
-              html:<br>
-              &lt;a href="#" class="main-nav"&gt;Default Button&lt;/a&gt;
+              &lt;ul&gt;
+                &lt;li class="main-nav" href="#">NAV BAR&lt;/li&gt;
+              &lt;/ul&gt;
             </code>
 
             <h3>Rendered element:</h3>
-            <a class="main-nav" href="#">NAV BAR</a>
-
+            <ul class="nav-styling">
+              <li><a class="main-nav" href="#">NAV BAR</a></li>
+            </ul>
           </section>
 
           <section>
@@ -70,45 +72,6 @@
 
             <h3>Rendered element:</h3>
             <a class="in-text" href="#">Default Link</a>
-
-          </section>
-
-          <section>
-            <h2>Normal Button</h2>
-            <h3>CSS selector:</h3>
-            <p>.button-style</p>
-
-            <h3>Sample code:</h3>
-
-            <code>html:<br>
-              &lt;button class="button-style"&gt;Add To Cart&lt;/button&gt;
-            </code>
-            <code>css: <br>
-              .button-style{ <br>
-                display: inline-block;<br>
-                font-family:'Ubuntu' ,sans-sans-serif;<br>
-                padding: 0.5em 0.75em;<br>
-                color: #ffffff;<br>
-                background-color: #653e8a;<br>
-                border-radius: 1rem;<br>
-                border-style:solid;<br>
-                border-width:thin;<br>
-                border-color:#ffffff;<br>
-                -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;<br>
-                transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;<br>
-              }<br>
-
-              .button-style:hover, .button-style:focus{<br>
-
-                background-color: #ffffff;<br>
-                color:#d89a41;<br>
-                border-color:#d89a41;<br>
-              }
-            </code>
-
-
-            <h3>Rendered element:</h3>
-            <button class="button-style">Add To Cart</button>
 
           </section>
         </section>
@@ -256,7 +219,7 @@
               </div>
               <div class="colour-structure">
                 <div class="forth-colour colour-box"></div>
-                <p class="swatch">#3C3C3C</p>
+                <p class="swatch">#EAE9E9</p>
                 <p>text and heading</p>
               </div>
             </div>
@@ -264,7 +227,7 @@
             <div class="color-container">
               <div class="colour-structure">
                 <div class="fifth-colour colour-box"></div>
-                <p class="swatch">#EAE9E9</p>
+                <p class="swatch">#3C3C3C</p>
                 <p>For background</p>
               </div>
 
