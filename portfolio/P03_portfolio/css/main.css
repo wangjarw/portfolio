@@ -131,6 +131,10 @@ ul{
   max-width:75%;
 }
 
+.nav-styling li{
+  list-style-type:none;
+}
+
 /*
 INTERACTIVE ELEMENTS -------------------
 */
@@ -141,8 +145,11 @@ INTERACTIVE ELEMENTS -------------------
   font-family: 'Open Sans', sans-serif;
   font-weight:bold;
   text-decoration: none;
-  -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
-  transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+
+  -webkit-transition: text-decoration 0.93s;
+  transition: text-decoration 0.93s;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
 }
 
 .main-nav:hover, .main-nav:focus {
@@ -250,11 +257,11 @@ TEXT ELEMENTS -------------------
 }
 
 /* .personal-story{
-  color:black;
-  padding: 1.5rem 1rem;
-  border-radius:1rem;
-  font-style:italic;
-  background-color:#e0e0e0;
+color:black;
+padding: 1.5rem 1rem;
+border-radius:1rem;
+font-style:italic;
+background-color:#e0e0e0;
 } */
 
 .styling-bullet{
@@ -332,7 +339,7 @@ color:#5669ac;
 }
 
 .sixth-colour{
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .swatch{
