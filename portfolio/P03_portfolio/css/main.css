@@ -59,7 +59,7 @@ section h3{
 
 h4{
   margin-bottom: 0;
-  font-family:'Ubuntu' ,sans-sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color:#888888;
   padding-bottom:1rem;
@@ -71,7 +71,7 @@ section p {
 }
 
 p{
-  font-family:'Brawler', serif;
+  font-family: 'Open Sans', sans-serif;
   max-width:60%;
   line-height:1.5rem;
 }
@@ -109,15 +109,15 @@ section code {
 }
 
 
-.product-img, .nav-attached-logo{
-  display:inline-block;
-  max-width:100%;
+/* .product-img, .nav-attached-logo{
+display:inline-block;
+max-width:100%;
 }
 
 .icon-size{
-  display:inline-block;
-  max-width:100%;
-}
+display:inline-block;
+max-width:100%;
+} */
 
 ul.citations li{
   list-style-type:none;
@@ -172,31 +172,31 @@ INTERACTIVE ELEMENTS -------------------
   color:#d89a41;
 }
 
-.submit-reset-button-style{
+/* .submit-reset-button-style{
 
-  display: inline-block;
-  font-family:'Ubuntu' ,sans-sans-serif;
-  padding: 0.5em 0.75em;
-  color: #ffffff;
-  background-color: #653e8a;
-  border-radius: 0.5rem;
-  border-style:solid;
-  border-color:#ffffff;
-  border-width:thin;
-  margin: 0.3rem 0;
+display: inline-block;
+font-family:'Ubuntu' ,sans-sans-serif;
+padding: 0.5em 0.75em;
+color: #ffffff;
+background-color: #653e8a;
+border-radius: 0.5rem;
+border-style:solid;
+border-color:#ffffff;
+border-width:thin;
+margin: 0.3rem 0;
 
 
-  -webkit-transition:  color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
-  transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
+-webkit-transition:  color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
+transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
 }
 
 .submit-reset-button-style:hover, .submit-reset-button-style:focus{
 
-  color: #653e8a;
-  border-color:#653e8a;
-  background-color: #ffffff;
+color: #653e8a;
+border-color:#653e8a;
+background-color: #ffffff;
 
-}
+} */
 
 .button-style{
 
@@ -247,7 +247,7 @@ margin:0.8rem 0.5rem;
 TEXT ELEMENTS -------------------
 */
 .sample-para{
-  font-family: 'Brawler', serif;
+  font-family: 'Open Sans', sans-serif;
   max-width:70%;
   line-height:1.5rem;
 
