@@ -136,25 +136,19 @@ INTERACTIVE ELEMENTS -------------------
 */
 
 /* Styling for the navigation button */
-.button-nav {
+.main-nav {
   display: inline-block;
-  font-family:'Ubuntu' ,sans-sans-serif;
-  padding: 1em 0.75em;
-  color: #FFF;
-  background-color: #5669ac;
-  border-radius: 0.5em;
-  border-style:solid;
-  border-width:thin;
-  border-color:#ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
   text-decoration: none;
   -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
   transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
 }
 
-.button-nav:hover, .button-nav:focus {
-  background-color: #ffffff;
+.main-nav:hover, .main-nav:focus {
+  /* background-color: #ffffff;
   color:#d89a41;
-  border-color:#d89a41;
+  border-color:#d89a41; */
 }
 
 .in-text{
