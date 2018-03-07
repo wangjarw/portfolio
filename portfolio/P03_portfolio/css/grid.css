@@ -95,6 +95,37 @@ thru media queries at the end*/
 	text-align:center;
 }
 
+@media(min-width:50.25em){
+
+  section code {
+    background-color: #EEE;
+    padding: 0.5em 0.75em;
+    display: block;
+    max-width:50%;
+  }
+
+}
+
+@media(min-width:48.437em) and (max-width:56.25em){
+  .sample-para{
+    max-width:70%;
+  }
+
+  p{
+    max-width:60%;
+  }
+}
+
+@media(min-width:56.25em){
+  .sample-para{
+    max-width:55%;
+  }
+
+  p{
+    max-width:60%;
+  }
+
+}
 
 
 @media(min-width:48.75em){
@@ -123,11 +154,11 @@ thru media queries at the end*/
 	}
 }
 
-@media (max-width:48.75em) and (min-width:28.125em){
+/* @media (max-width:48.75em) and (min-width:28.125em){
 
 	.product-structure, .nav-item-structure{
 		flex-basis:50%;
 	}
 
 
-}
+} */

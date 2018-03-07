@@ -11,7 +11,7 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css?family=Kalam|Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kalam|Open+Sans" rel="stylesheet">
 
 </head>
 
@@ -36,274 +36,253 @@
     <div class="body-content">
 
       <section>
-      <!-- INTERACTIVE ELEMENTS SECTION // -->
-      <section id="interactive_elements">
+        <!-- INTERACTIVE ELEMENTS SECTION // -->
+        <section id="interactive_elements">
 
-        <!-- Default Button styling section -->
-        <section>
+          <!-- Default Button styling section -->
+          <section>
 
-          <h2>Navigation Button</h2>
+            <h2>Navigation Button</h2>
 
-          <h3>CSS selector:</h3>
-          <p>.button-nav, .button-nav:hover, .button-nav:focus</p>
+            <h3>CSS selector:</h3>
+            <p>.main-nav, .main-nav:hover, .main-nav:focus</p>
 
-          <h3>Sample code:</h3>
-          <code>
-            html:<br>
-            &lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;
-          </code>
+            <h3>Sample code:</h3>
+            <code>
+              html:<br>
+              &lt;a href="#" class="main-nav"&gt;Default Button&lt;/a&gt;
+            </code>
 
-          <code>
-            //////////////////
-          </code>
+            <h3>Rendered element:</h3>
+            <a class="main-nav" href="#">NAV BAR</a>
 
-          <h3>Rendered element:</h3>
-          <a class="button-nav" href="#">Navigation Button</a>
+          </section>
+
+          <section>
+            <h2>In-text link</h2>
+            <h3>CSS selector:</h3>
+            <p>.in-text, .in-text:hover, .in-text:focus</p>
+
+            <h3>Sample code:</h3>
+            <code>html:<br>
+              &lt;a href="#" class="in-text"&gt;Default Link&lt;/a&gt;
+            </code>
+
+            <h3>Rendered element:</h3>
+            <a class="in-text" href="#">Default Link</a>
+
+          </section>
+
+          <section>
+            <h2>Normal Button</h2>
+            <h3>CSS selector:</h3>
+            <p>.button-style</p>
+
+            <h3>Sample code:</h3>
+
+            <code>html:<br>
+              &lt;button class="button-style"&gt;Add To Cart&lt;/button&gt;
+            </code>
+            <code>css: <br>
+              .button-style{ <br>
+                display: inline-block;<br>
+                font-family:'Ubuntu' ,sans-sans-serif;<br>
+                padding: 0.5em 0.75em;<br>
+                color: #ffffff;<br>
+                background-color: #653e8a;<br>
+                border-radius: 1rem;<br>
+                border-style:solid;<br>
+                border-width:thin;<br>
+                border-color:#ffffff;<br>
+                -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;<br>
+                transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;<br>
+              }<br>
+
+              .button-style:hover, .button-style:focus{<br>
+
+                background-color: #ffffff;<br>
+                color:#d89a41;<br>
+                border-color:#d89a41;<br>
+              }
+            </code>
+
+
+            <h3>Rendered element:</h3>
+            <button class="button-style">Add To Cart</button>
+
+          </section>
+        </section>
+        <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+        <!-- TEXT ELEMENTS SECTION // -->
+        <section id="text_elements">
+
+          <section>
+            <h2>Headings</h2>
+            <h3>CSS selector:</h3>
+            <p>h1, h2, h3</p>
+
+            <h3>Sample code:</h3>
+            <code>
+              html:<br>
+              &lt;h1&gt;HEADING&lt;/h1&gt;<br>
+              &lt;h2&gt;HEADING&lt;/h2&gt;<br>
+              &lt;h3&gt;Heading&lt;/h3&gt;<br>
+            </code>
+            <code>
+            </code>
+
+
+            <h3>Rendered element:</h3>
+            <h1>HEADING</h1>
+            <h2>HEADING</h2>
+            <h3>Heading</h3>
+
+          </section>
+
+          <section>
+            <h2>Paragraphs</h2>
+            <h3>CSS selector:</h3>
+            <p>p (in this part, I create classes so that the styling is only going to be applied at this part. The classes are: ".sample-para")</p>
+
+            <h3>Sample code:</h3>
+            <code>
+              html:<br>
+              &lt;p&gt; class="My name is Jar Hsuan Sherry Wang. I am a enthusiastic Interactive Art and Technology student who wants to be a content strategist that is able to utilize various forms of media to promote and raise awareness of different social topics. Emphasizing on media art, I mainly explore in graphic design, game design, UX/UI design,videography and virtual reality to represent ideas in an effective way. Within different project, I am mainly in charge of storyboarding, content analysis,ensuring meaningful project goals and pinpointing problems by giving thoughtful suggestions.&lt;/p&gt; <br><br>
+            </code>
+
+
+            <h3>Rendered element:</h3>
+            <p class="sample-para">My name is Jar Hsuan Sherry Wang. I am a enthusiastic Interactive Art and Technology student who wants to be a content strategist that is able to utilize various forms of media to promote and raise awareness of different social topics. Emphasizing on media art, I mainly explore in graphic design, game design, UX/UI design,videography and virtual reality to represent ideas in an effective way. Within different project, I am mainly in charge of storyboarding, content analysis,ensuring meaningful project goals and pinpointing problems by giving thoughtful suggestions.</p>
+
+          </section>
+
+          <section>
+            <h2>Bulleted Lists</h2>
+            <h3>CSS selector:</h3>
+            <p>.styling-bullet</p>
+
+            <h3>Sample code:</h3>
+            <code>
+              html:<br>
+              &lt;ul class="styling-bullet"&gt;<br>
+              &lt;li>Exploring nutrients&lt;/li&gt;<br>
+              &lt;li>Processed food and non-processed food&lt;/li&gt;<br>
+              &lt;/ul&gt;
+            </code>
+            <code>
+              css:<br>
+              .styling-bullet{<br>
+                list-style-type: square;<br>
+                font-family:'Ubuntu' ,sans-sans-serif;<br>
+                color:#888888;<br>
+                font-size:1.1rem;<br>
+                line-height:1.8rem;<br>
+              }
+            </code>
+
+
+            <h3>Rendered element:</h3>
+            <ul class="styling-bullet">
+              <li>Exploring nutrients</li>
+              <li>Processed food and non-processed food</li>
+            </ul>
+
+          </section>
 
         </section>
-
-        <section>
-          <h2>In-text link</h2>
-          <h3>CSS selector:</h3>
-          <p>.in-text, .in-text:hover, .in-text:focus</p>
-
-          <h3>Sample code:</h3>
-          <code>html:<br>
-            &lt;a href="#" class="in-text"&gt;Default Link&lt;/a&gt;
-          </code>
-          <code>
-            css:<br>
-            .in-text{<br>
-              font-family: 'Brawler', serif;<br>
-              max-width:70%;<br>
-              line-height:1.5rem;<br>
-              text-decoration:none;<br>
-              color:#5669ac;<br>
-              font-weight:bold;<br>
-
-              -webkit-transition: color 0.3s ease-in, text-decoration 0.3s ease-in;<br>
-              transition:  color 0.3s ease-in, text-decoration 0.3s ease-in;<br>
-            }
-            <br>
-            .in-text:hover, .in-text:focus{<br>
-              color:#d89a41;<br>
-            }
-          </code>
-
-          <h3>Rendered element:</h3>
-          <a class="in-text" href="#">Default Link</a>
-        </section>
-
-        <section>
-          <h2>Normal Button</h2>
-          <h3>CSS selector:</h3>
-          <p>.button-style</p>
-
-          <h3>Sample code:</h3>
-
-          <code>html:<br>
-            &lt;button class="button-style"&gt;Add To Cart&lt;/button&gt;
-          </code>
-          <code>css: <br>
-            .button-style{ <br>
-              display: inline-block;<br>
-              font-family:'Ubuntu' ,sans-sans-serif;<br>
-              padding: 0.5em 0.75em;<br>
-              color: #ffffff;<br>
-              background-color: #653e8a;<br>
-              border-radius: 1rem;<br>
-              border-style:solid;<br>
-              border-width:thin;<br>
-              border-color:#ffffff;<br>
-              -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;<br>
-              transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;<br>
-            }<br>
-
-            .button-style:hover, .button-style:focus{<br>
-
-              background-color: #ffffff;<br>
-              color:#d89a41;<br>
-              border-color:#d89a41;<br>
-            }
-          </code>
-
-          <h3>Rendered element:</h3>
-          <button class="button-style">Add To Cart</button>
-        </section>
-      </section>
-      <!-- // INTERACTIVE ELEMENTS SECTION -->
+        <!-- // TEXT ELEMENTS SECTION -->
 
 
 
-      <!-- TEXT ELEMENTS SECTION // -->
-      <section id="text_elements">
+        <!-- COMBINED ELEMENTS SECTION // -->
+        <section id="combined_elements">
 
-        <section>
-          <h2>Headings</h2>
-          <h3>CSS selector:</h3>
-          <p>h1, h2, h3</p>
+          <section>
+            <h2>Main Navigation</h2>
+            <h3>CSS selector:</h3>
+            <p>.nav-container, .nav-attached-logo, .nav-item-structure</p>
+            <h3>Sample code:</h3>
+            <code>
 
-          <h3>Sample code:</h3>
-          <code>
-            html:<br>
-            &lt;h1&gt;HEADING&lt;/h1&gt;<br>
-            &lt;h2&gt;HEADING&lt;/h2&gt;<br>
-            &lt;h3&gt;Heading&lt;/h3&gt;<br>
-          </code>
-          <code>
-          </code>
-
-          <h3>Rendered element:</h3>
-          <h1>HEADING</h1>
-          <h2>HEADING</h2>
-          <h3>Heading</h3>
-
-        </section>
-
-        <section>
-          <h2>Paragraphs</h2>
-          <h3>CSS selector:</h3>
-          <p>p (in this part, I create classes so that the styling is only going to be applied at this part. The classes are: ".sample-para")</p>
-
-          <h3>Sample code:</h3>
-          <code>
-            html:<br>
-            &lt;p&gt; class="My name is Jar Hsuan Sherry Wang. I am a enthusiastic Interactive Art and Technology student who wants to be a content strategist that is able to utilize various forms of media to promote and raise awareness of different social topics. Emphasizing on media art, I mainly explore in graphic design, game design, UX/UI design,videography and virtual reality to represent ideas in an effective way. Within different project, I am mainly in charge of storyboarding, content analysis,ensuring meaningful project goals and pinpointing problems by giving thoughtful suggestions.&lt;/p&gt; <br><br>
-          </code>
-
-          <h3>Rendered element:</h3>
-          <p class="sample-para">My name is Jar Hsuan Sherry Wang. I am a enthusiastic Interactive Art and Technology student who wants to be a content strategist that is able to utilize various forms of media to promote and raise awareness of different social topics. Emphasizing on media art, I mainly explore in graphic design, game design, UX/UI design,videography and virtual reality to represent ideas in an effective way. Within different project, I am mainly in charge of storyboarding, content analysis,ensuring meaningful project goals and pinpointing problems by giving thoughtful suggestions.</p>
-        </section>
-
-        <section>
-          <h2>Bulleted Lists</h2>
-          <h3>CSS selector:</h3>
-          <p>.styling-bullet</p>
-
-          <h3>Sample code:</h3>
-          <code>
-            html:<br>
-            &lt;ul class="styling-bullet"&gt;<br>
-            &lt;li>Exploring nutrients&lt;/li&gt;<br>
-            &lt;li>Processed food and non-processed food&lt;/li&gt;<br>
-            &lt;/ul&gt;
-          </code>
-          <code>
-            css:<br>
-            .styling-bullet{<br>
-              list-style-type: square;<br>
-              font-family:'Ubuntu' ,sans-sans-serif;<br>
-              color:#888888;<br>
-              font-size:1.1rem;<br>
-              line-height:1.8rem;<br>
-            }
-          </code>
-
-          <h3>Rendered element:</h3>
-          <ul class="styling-bullet">
-            <li>Exploring nutrients</li>
-            <li>Processed food and non-processed food</li>
-          </ul>
-        </section>
-
-      </section>
-      <!-- // TEXT ELEMENTS SECTION -->
+            </code>
+            <p>The gird structure is also presented through main navigation.</p>
+            <code>
+              //////////////
+            </code>
 
 
+            <h3>Rendered element:</h3>
 
-      <!-- COMBINED ELEMENTS SECTION // -->
-      <section id="combined_elements">
+          </section>
 
-        <section>
-          <h2>Main Navigation</h2>
-          <h3>CSS selector:</h3>
-          <p>.nav-container, .nav-attached-logo, .nav-item-structure</p>
-          <h3>Sample code:</h3>
-          <code>
+          <section>
+            <h2>Project Listing & Overview</h2>
+            <h3>CSS selector:</h3>
+            <p>.</p>
 
-          </code>
-          <p>The gird structure is also presented through main navigation.</p>
-          <code>
-            //////////////
-          </code>
+            <h3>Sample code:</h3>
+            <code>
+              ////
+            </code>
 
-          <h3>Rendered element:</h3>
-        </section>
+            <h3>Rendered elements:</h3>
 
-        <section>
-          <h2>Project Listing & Overview</h2>
-          <h3>CSS selector:</h3>
-          <p>.</p>
 
-          <h3>Sample code:</h3>
-          <h4>projects</h4>
-          <code>
-            ////
-          </code>
+          </section>
 
-          <h4>overview</h4>
-          <code>
-            ////
-          </code>
+          <section>
+            <h2>Colour Swatches</h2>
+            <p>Since the position that I am aiming for is content strategist, I think it would be great to use yellow, green and red-- hightlight colours that are typically used for grouping content as my main collour scheme. On the other hand, since most of the planning happen on paper so this is also why for the texts and the headings, they will be in black. </p>
 
-          <p>The gird structure is also presented through product listing.</p>
-          <code>
-            ////////////////
-          </code>
-
-          <h3>Rendered elements:</h3>
-
-        </section>
-
-        <section>
-          <h2>Grid Structure</h2>
-          <p>How the grid strucuture changes throughout different sizes is demostrated in main navigation, product listing and colour swatches.Normally in bigger sized screen, the underlying grid consists 6 colunms and for the most of the time, the content occupies 4 columns (about 60% of the width). On the other hand, the grid structure becomes 2 columns when the screen shrinks into middle size and then eventually eveything gets into a single column in the smallest size.</p>
-        </section>
-
-        <section>
-          <h2>Colour Swatches</h2>
-          <p>The colour combination I decide to go for is gray, blue, purple and amber colour. Due to the facts that the target audience for this company is mainly for people from the middle age to elderly people, the overall design should look calm and believable. This consideration is the reason why blue is selected as the main colour scheme. Although green is typically used to represent organic healthy food but colour blindness is being taking into consideration. Hence, it is avoided. Most of the sections would be in gray and only the parts that are emphasized or the bigger headers would be in blue to draw attention. High contrast is the basic idea I am aiming for. Hyperlinks would also be in colour and underlined.[some info can back up this ideas and these would be included in the citation page.]</p>
-
-          <h3>Primary Colours</h3>
-          <div class="color-container">
-            <div class="colour-structure">
-              <div class="first-colour colour-box"></div>
-              <p class="swatch">#5669ac</p>
-              <p>for bigger headings and main navigation</p>
+            <h3>Primary Colours</h3>
+            <div class="color-container">
+              <div class="colour-structure">
+                <div class="first-colour colour-box"></div>
+                <p class="swatch">#D69D53</p>
+                <p>for hover/focus state of the buttons.</p>
+              </div>
+              <div class="colour-structure">
+                <div class="second-colour colour-box"></div>
+                <p class="swatch">#339D8B</p>
+                <p>for hover/focus state of the buttons.</p>
+              </div>
+              <div class="colour-structure">
+                <div class="third-colour colour-box"></div>
+                <p class="swatch">#B35F5E</p>
+                <p>for hover/focus state of the buttons.</p>
+              </div>
+              <div class="colour-structure">
+                <div class="forth-colour colour-box"></div>
+                <p class="swatch">#3C3C3C</p>
+                <p>text and heading</p>
+              </div>
             </div>
-            <div class="colour-structure">
-              <div class="second-colour colour-box"></div>
-              <p class="swatch">#653e8a</p>
-              <p>for buttons</p>
+            <h3>Background Colours</h3>
+            <div class="color-container">
+              <div class="colour-structure">
+                <div class="fifth-colour colour-box"></div>
+                <p class="swatch">#EAE9E9</p>
+                <p>For background</p>
+              </div>
+
+              <div class="colour-structure">
+                <div class="sixth-colour colour-box"></div>
+                <p class="swatch">#fff</p>
+                <p>For section background</p>
+              </div>
             </div>
-            <div class="colour-structure">
-              <div class="third-colour colour-box"></div>
-              <p class="swatch">#888888</p>
-              <p>for h3/h4 headings and icons</p>
-            </div>
-            <div class="colour-structure">
-              <div class="forth-colour colour-box"></div>
-              <p class="swatch">#e0e0e0</p>
-              <p>for borders and the background colour of the personal story section</p>
-            </div>
-          </div>
-          <h3>Secondary Colours</h3>
-          <div class="color-container">
-            <div class="colour-structure">
-              <div class="fifth-colour colour-box"></div>
-              <p class="swatch">#d89a41</p>
-              <p>for buttons, icons, in-text link and imagery</p>
-            </div>
-          </div>
+          </section>
         </section>
-      </section>
+      </div>
     </div>
-  </div>
 
-  <!-- // COMBINED ELEMENTS SECTION -->
-
+    <!-- // COMBINED ELEMENTS SECTION -->
 
 
 
-</body>
-</html>
+
+  </body>
+  </html>
