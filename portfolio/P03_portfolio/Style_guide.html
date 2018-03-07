@@ -11,7 +11,7 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Brawler" rel="stylesheet">
 
 </head>
@@ -102,97 +102,6 @@
         </section>
 
         <section>
-          <h2>Text fields with labels</h2>
-          <h3>CSS selector:</h3>
-          <p>form, form input, form input[type^=text]</p>
-
-          <h3>Sample code:</h3>
-          <code>html: <br>
-            &lt;form&gt; <br>
-            First Name: &lt;input type="text" placeholder="Please type your first name..."&gt;<br>
-            Last Name: &lt;input type="text" placeholder="Please type your last name..."&gt;<br>
-            &lt;/form&gt;<br>
-          </code>
-          <code>
-            css: <br>
-            form{<br>
-              font-family:'Ubuntu' ,sans-sans-serif;<br>
-              color:#888888;<br>
-            }<br>
-
-            form input{<br>
-              font-family: 'Brawler', serif;<br>
-              font-size:1rem;<br>
-              padding: 0.2rem 0.2rem;<br>
-
-            }<br>
-
-            form input[type^=text]{<br>
-              border-radius:0.8rem;<br>
-              border: 0.1rem solid #653e8a;<br>
-              margin:0.8rem 0.5rem;<br>
-            }
-          </code>
-
-
-          <h3>Rendered element:</h3>
-          <form>
-            First Name: <br>
-            <input type="text" placeholder="Please type your first name...">
-            <br>
-            Last Name: <br>
-            <input type="text" placeholder="Please type your last name...">
-          </form>
-
-        </section>
-
-        <section>
-          <h2>Submit/Reset Buttons</h2>
-          <h3>CSS selector:</h3>
-          <p>.submit-reset-button-style, .submit-reset-button-style:hover, .submit-reset-button-style:focus</p>
-
-          <h3>Sample code:</h3>
-          <code>
-            html: <br>
-            &lt;input type="submit" value="Submit Button" class="submit-reset-button-style"&gt;<br>
-            &lt;input type="reset" value="Reset Button" class="submit-reset-button-style"&gt;<br>
-          </code>
-          <code>
-            css: <br>
-            .submit-reset-button-style{<br>
-              display: inline-block;<br>
-              font-family:'Ubuntu' ,sans-sans-serif;<br>
-              padding: 0.5em 0.75em;<br>
-              color: #d89a41;<br>
-              background-color: #653e8a;<br>
-              border-radius: 1em;<br>
-              border:none;<br>
-              margin: 0.3rem 0;<br>
-              -webkit-transition:  color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;<br>
-              transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;<br>
-            }
-            <br>
-
-            .submit-reset-button-style:hover, .submit-reset-button-style:focus{ <br>
-              color: #653e8a;<br>
-              border-color:#653e8a;<br>
-              background-color: #ffffff;<br>
-
-            }
-          </code>
-
-          <h3>Rendered element:</h3>
-          <form>
-            First Name: <br>
-            <input type="text" placeholder="Please type your first name...">
-            <br>
-            Last Name: <br>
-            <input type="text" placeholder="Please type your last name...">
-            <br>
-            <input type="submit" value="Submit Button" class="submit-reset-button-style">
-            <input type="reset" value="Reset Button" class="submit-reset-button-style">
-          </form>
-
           <h2>Normal Button</h2>
           <h3>CSS selector:</h3>
           <p>.button-style</p>
@@ -346,38 +255,6 @@
           </ul>
         </section>
 
-        <section>
-          <h2>Numbered Lists</h2>
-          <h3>CSS selector:</h3>
-          <p>.styling-ordered</p>
-
-          <h3>Sample code:</h3>
-          <code>
-            html:<br>
-            &lt;ol class="styling-ordered"&gt; <br>
-            &lt;li>Exploring nutrients&lt;/li&gt;<br>
-            &lt;li>Processed food and non-processed food&lt;/li&gt;<br>
-            &lt;li>The epidemic: obesity&lt;/li&gt;<br>
-            &lt;/ol&gt;
-          </code>
-          <code>
-            css: <br>
-            .styling-ordered{<br>
-              font-family:'Ubuntu' ,sans-sans-serif;<br>
-              color:#888888;<br>
-              font-size:1.1rem;<br>
-              line-height:1.8rem;<br>
-            }
-          </code>
-
-          <h3>Rendered element:</h3>
-          <ol class="styling-ordered">
-            <li>Exploring nutrients</li>
-            <li>Processed food and non-processed food</li>
-            <li>The epidemic: obesity</li>
-          </ol>
-        </section>
-
       </section>
       <!-- // TEXT ELEMENTS SECTION -->
 
@@ -392,22 +269,7 @@
           <p>.nav-container, .nav-attached-logo, .nav-item-structure</p>
           <h3>Sample code:</h3>
           <code>
-            html:<br>
-            &lt;div class="nav-container"&gt;<br>
-            &lt;div class="nav-item-structure"&gt;<br>
-            &lt;img src="image/logo.png" alt="logo" class="nav-attached-logo"&gt;<br>
-            &lt;/div&gt;<br>
-            &lt;a class="button-nav nav-item-structure" href="#"Products&lt;/a&gt;<br>
-            &lt;a class="button-nav nav-item-structure" href="#"&gt;Online Resources&lt;/a&gt;<br>
-            &lt;a class="button-nav nav-item-structure" href="#"&gt;Opportunity&lt;/a&gt;<br>
-            &lt;a class="button-nav nav-item-structure" href="#"&gt;Perosnal Story&lt;/a&gt;<br>
-            &lt;a class="button-nav nav-item-structure" href="#"&gt;Company Overview&lt;/a&gt;<br>
-            &lt;/div&gt;<br>
-            css:<br>
-            .nav-attached-logo{<br>
-              display:inline-block;<br>
-              vertical-align:top;<br>
-            }<br>
+
           </code>
           <p>The gird structure is also presented through main navigation.</p>
           <code>
@@ -415,16 +277,6 @@
           </code>
 
           <h3>Rendered element:</h3>
-          <div class="nav-container">
-            <div class="nav-item-structure">
-              <img src="image/logo.png" alt="logo" class="nav-attached-logo">
-            </div>
-            <a class="button-nav nav-item-structure" href="#">Products</a>
-            <a class="button-nav nav-item-structure" href="#">Online Resources</a>
-            <a class="button-nav nav-item-structure" href="#">Opportunity</a>
-            <a class="button-nav nav-item-structure" href="#">Perosnal Story</a>
-            <a class="button-nav nav-item-structure" href="#">Company Overview</a>
-          </div>
         </section>
 
         <section>
@@ -444,37 +296,7 @@
           </code>
 
           <h3>Rendered elements:</h3>
-          <div class="product-container">
-            <div class="product-structure">
-              <img src="image/product.png" alt="Moisturizing Day Cream" class="product-img">
-              <p class="product-name">Moisturizing Day Cream</p>
-              <p>$35.00</p>
-              <img src="image/star.png" alt="rating" class="rating-img">
-              <img src="image/star.png" alt="rating" class="rating-img">
-              <img src="image/star.png" alt="rating" class="rating-img">
-            </div>
-            <div class="product-structure">
-              <img src="image/product2.png" alt="Essential Youth Serum" class="product-img">
-              <p class="product-name">Essential Youth Serum</p>
-              <p>$20.00</p>
-              <img src="image/star.png" alt="rating" class="rating-img">
-              <img src="image/star.png" alt="rating" class="rating-img">
-            </div>
-            <div class="product-structure">
-              <img src="image/product.png" alt="Moisturizing Day Cream" class="product-img">
-              <p class="product-name">Moisturizing Day Cream</p>
-              <p>$35.00</p>
-              <img src="image/star.png" alt="rating" class="rating-img">
-              <img src="image/star.png" alt="rating" class="rating-img">
-              <img src="image/star.png" alt="rating" class="rating-img">
-            </div>
-            <div class="product-structure">
-              <img src="image/product3.png" alt="Essential Youth Serum" class="product-img">
-              <p class="product-name">Essential Youth Serum</p>
-              <p>$20.00</p>
-              <img src="image/star.png" alt="rating" class="rating-img">
-            </div>
-          </div>
+        
         </section>
 
         <section>
