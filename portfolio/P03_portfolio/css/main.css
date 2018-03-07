@@ -145,17 +145,39 @@ INTERACTIVE ELEMENTS -------------------
   font-family: 'Open Sans', sans-serif;
   font-weight:bold;
   text-decoration: none;
+  color:#3C3C3C;
 
-  -webkit-transition: text-decoration 0.93s;
-  transition: text-decoration 0.93s;
-  -webkit-transition-timing-function: linear;
-  transition-timing-function: linear;
+  position: relative;
+  width: 5rem;
+  text-align: center;
 }
 
-.main-nav:hover, .main-nav:focus {
-  /* background-color: #ffffff;
-  color:#d89a41;
-  border-color:#d89a41; */
+
+
+/*create an invisible box underneath the nav item and this would
+be acting like an underlined animation
+http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
+.main-nav:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -0.5rem;
+  left: 0;
+  background-color: #B35F5E;
+  visibility: hidden;
+  /*initially it does not occupy any space*/
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+
+.main-nav:hover:before, .main-nav:focus:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .in-text{
