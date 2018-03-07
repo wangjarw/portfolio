@@ -225,7 +225,7 @@ INTERACTIVE ELEMENTS -------------------
 
 }
 
-
+/*
 form{
   font-family:'Ubuntu' ,sans-sans-serif;
   color:#888888;
@@ -243,7 +243,7 @@ form input[type^=text]{
   border-radius:0.4rem;
   border: 0.1rem solid #653e8a;
   margin:0.8rem 0.5rem;
-}
+} */
 
 /*
 TEXT ELEMENTS -------------------
@@ -271,19 +271,19 @@ TEXT ELEMENTS -------------------
   line-height:1.8rem;
 }
 
-.styling-ordered{
+/* .styling-ordered{
   font-family:'Ubuntu' ,sans-sans-serif;
   color:#888888;
   font-size:1.1rem;
   line-height:1.8rem;
-}
+} */
 
 
 /*
 COMBINED ELEMENTS -------------------
 */
 
-
+/*
 .rating-img{
   max-width:10%;
 }
@@ -304,7 +304,7 @@ COMBINED ELEMENTS -------------------
 .product-name{
   font-weight:bold;
   color:#5669ac;
-}
+} */
 
 
 /*swatches*/
@@ -355,7 +355,7 @@ COMBINED ELEMENTS -------------------
 
 }
 
-@media(min-width:75em){
+/* @media(min-width:75em){
 
   .rating-img{
     max-width:25%;
@@ -398,4 +398,4 @@ COMBINED ELEMENTS -------------------
   .icon-size{
     max-width: 40%;
   }
-}
+} */
