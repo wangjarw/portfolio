@@ -321,17 +321,21 @@ COMBINED ELEMENTS -------------------
   display: inline-block;
   line-height: 35px;
   margin: 8px;
-  padding: 0 15px;
   font-size: 15px;
   position: relative;
+  padding:0.3rem;
   opacity: .999;
   border-radius: 3px;
 }
 
+a:hover img{
+  opacity: .5;
+}
+
 .project-item {
   background-color: transparent;
-  border: 1px solid #d0d0d0;
-  color: #B8B8B8;
+  border: 1.3px solid #d0d0d0;
+
 }
 .project-item:before, .project-item:after {
   content: '';
@@ -345,16 +349,18 @@ COMBINED ELEMENTS -------------------
 .project-item:before {
   width: 0;
   height: 100%;
-  border-width: 1px 0 1px 0;
+  border-width: 1.3px 0 1.3px 0;
   top: -1px;
   left: 0;
   -webkit-transition-delay: 0.05s;
           transition-delay: 0.05s;
 }
+
+
 .project-item:after {
   width: 100%;
   height: 0;
-  border-width: 0 1px 0 1px;
+  border-width: 0 1.3px 0 1.3px;
   top: 0;
   left: -1px;
 }
@@ -366,9 +372,6 @@ COMBINED ELEMENTS -------------------
 }
 .yellow:before, .yellow:after {
   border-color: #D69D53;
-}
-.yellow:hover {
-  color:#D69D53;
 }
 
 /*swatches*/
