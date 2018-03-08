@@ -234,30 +234,30 @@ background-color: #ffffff;
 
 } */
 
-.button-style{
+/* .button-style{
 
-  display: inline-block;
-  font-family:'Ubuntu' ,sans-sans-serif;
-  padding: 0.5em 0.75em;
-  color: #ffffff;
-  background-color: #653e8a;
-  border-radius: 1rem;
-  border-style:solid;
-  border-width:thin;
-  border-color:#ffffff;
+display: inline-block;
+font-family:'Ubuntu' ,sans-sans-serif;
+padding: 0.5em 0.75em;
+color: #ffffff;
+background-color: #653e8a;
+border-radius: 1rem;
+border-style:solid;
+border-width:thin;
+border-color:#ffffff;
 
 
-  -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
-  transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+-webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
 }
 
 .button-style:hover, .button-style:focus{
 
-  background-color: #ffffff;
-  color:#d89a41;
-  border-color:#d89a41;
+background-color: #ffffff;
+color:#d89a41;
+border-color:#d89a41;
 
-}
+} */
 
 /*
 form{
@@ -319,7 +319,8 @@ COMBINED ELEMENTS -------------------
 
 .project-item {
   display: inline-block;
-  line-height: 35px;
+  position:relative;
+  /* line-height: 35px; */
   margin: 8px;
   font-size: 15px;
   position: relative;
@@ -328,9 +329,26 @@ COMBINED ELEMENTS -------------------
   border-radius: 3px;
 }
 
+.project-item-title, .project-item-description{
+  display: block;
+  margin: auto;
+  text-align: center
+}
+
+.project-hover-text{
+  position:absolute;
+  bottom:50%;
+  top:50%;
+  left:30%;
+  right:30%;
+}
+
+
+
 a:hover img{
   opacity: .5;
 }
+
 
 .project-item {
   background-color: transparent;
@@ -344,7 +362,7 @@ a:hover img{
   z-index: 5;
   border-radius: 3px;
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
 }
 .project-item:before {
   width: 0;
@@ -353,7 +371,7 @@ a:hover img{
   top: -1px;
   left: 0;
   -webkit-transition-delay: 0.05s;
-          transition-delay: 0.05s;
+  transition-delay: 0.05s;
 }
 
 
@@ -409,7 +427,7 @@ a:hover img{
 }
 
 .seventh-colour{
-    background-color: #DBDBDB;
+  background-color: #DBDBDB;
 }
 
 .swatch{
