@@ -3,6 +3,14 @@ STYLE GUIDE STYLING
 Default styling for the style guide
 
 */
+
+/* @import url(//codepen.io/chrisdothtml/pen/ojLzJK.css); */
+.animate, .project-item, .project-item:before, .project-item:after, .project-item:before, .project-item:after {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+
 body {
   padding-top: 4rem;
   background-color:#3C3C3C;
@@ -108,6 +116,9 @@ section code {
   padding: 0.5em 0.75em;
   display: block;
   max-width:100%
+}
+a, a:hover {
+  text-decoration: none;
 }
 
 
@@ -306,37 +317,32 @@ line-height:1.8rem;
 COMBINED ELEMENTS -------------------
 */
 
-.project-item{
-  display:inline-block;
+.project-item {
+  display: inline-block;
+  line-height: 35px;
+  margin: 8px;
+  padding: 0 15px;
+  font-size: 15px;
+  position: relative;
+  opacity: .999;
+  border-radius: 3px;
+}
+
+.project-item {
   background-color: transparent;
-  border: 1px solid #3C3C3C;
-  max-width:100%;
+  border: 1px solid #d0d0d0;
+  color: #B8B8B8;
 }
-
-.project-item-img{
-  display:inline-block;
-  max-width:50%;
-}
-
-.project-item-title{
-display:block;
-
-}
-
-.project-item-description{
-  /* display:inline-block; */
-}
-
-.project-item:before, .project-item:after{
+.project-item:before, .project-item:after {
   content: '';
   border-style: solid;
   position: absolute;
   z-index: 5;
+  border-radius: 3px;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
 }
-
-.project-item:before{
+.project-item:before {
   width: 0;
   height: 100%;
   border-width: 1px 0 1px 0;
@@ -345,7 +351,6 @@ display:block;
   -webkit-transition-delay: 0.05s;
           transition-delay: 0.05s;
 }
-
 .project-item:after {
   width: 100%;
   height: 0;
@@ -359,10 +364,10 @@ display:block;
 .project-item:hover:after {
   height: 100%;
 }
-.project-item.yellow:before, .project-item.yellow:after {
+.yellow:before, .yellow:after {
   border-color: #D69D53;
 }
-.project-item.yellow:hover {
+.yellow:hover {
   color:#D69D53;
 }
 
