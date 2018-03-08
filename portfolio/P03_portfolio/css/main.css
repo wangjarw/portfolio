@@ -318,6 +318,15 @@ line-height:1.8rem;
 COMBINED ELEMENTS -------------------
 */
 
+.nav-container ul{
+  padding-left:0;
+}
+
+.nav-logo{
+  margin-right:auto;
+}
+
+
 .nav-logo-item{
   display:inline-block;
   margin:0.5rem 0;
@@ -325,7 +334,7 @@ COMBINED ELEMENTS -------------------
   font-family: 'Open Sans', sans-serif;
   color:#3C3C3C;
   font-size: 1.5rem;
-  text-align:left;
+  text-align:center;
   font-weight:bold;
 }
 nav {
@@ -340,9 +349,7 @@ nav li {
   /* margin: 1rem 1.5rem; */
 }
 
-.nav-logo{
-  margin-right:auto;
-}
+
 /*
 .nav-logo-item{
 max-width: 100%;
