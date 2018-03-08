@@ -131,26 +131,19 @@
             <code>
               html:<br>
               &lt;ul class="styling-bullet"&gt;<br>
-              &lt;li>Exploring nutrients&lt;/li&gt;<br>
-              &lt;li>Processed food and non-processed food&lt;/li&gt;<br>
-              &lt;/ul&gt;
+              &lt;li&gt;Overview:&lt;/li&gt;<br>
+              &lt;li&gt;Teammates: Justine Zhang, Tamiko Tadeo&lt;/li&gt;<br>
+              &lt;li&gt;Roles: main storyboard artist, content planner, sub sound designer, note taking, ideating, main director, camera handler and editor&lt;/li&gt;<br>
+              &lt;li&gt;Goal: a 3-4 min long exhibition documentary video about the value of taxidermy for The Wild Things exhibition in Museum of Vancouver.&lt;/li&gt;<br>
+            &lt;/ul&gt;
             </code>
-            <code>
-              css:<br>
-              .styling-bullet{<br>
-                list-style-type: square;<br>
-                font-family:'Ubuntu' ,sans-sans-serif;<br>
-                color:#888888;<br>
-                font-size:1.1rem;<br>
-                line-height:1.8rem;<br>
-              }
-            </code>
-
 
             <h3>Rendered element:</h3>
             <ul class="styling-bullet">
-              <li>Exploring nutrients</li>
-              <li>Processed food and non-processed food</li>
+              <li>Overview:</li>
+              <li>Teammates: Justine Zhang, Tamiko Tadeo</li>
+              <li>Roles: main storyboard artist, content planner, sub sound designer, note taking, ideating, main director, camera handler and editor</li>
+              <li>Goal: a 3-4 min long exhibition documentary video about the value of taxidermy for The Wild Things exhibition in Museum of Vancouver.</li>
             </ul>
 
           </section>
@@ -166,26 +159,29 @@
           <section>
             <h2>Main Navigation</h2>
             <h3>CSS selector:</h3>
-            <p>.nav-container, .nav-attached-logo, .nav-item-structure</p>
+            <p>.nav-container, .nav-logo-item, .nav-logo, nav li, nav ul</p>
             <h3>Sample code:</h3>
             <code>
+              &lt;nav&gt;<br>
+                &lt;ul class="nav-container"&gt;<br>
+                  &lt;li  class="nav-logo"&gt;&lt;a href="#" class="nav-logo-item"&gt;JHW Design&lt;/a&gt; &lt;/li&gt;<br>
 
+                  &lt;li&gt;&lt;a class="main-nav" href="#"&gt;ABOUT&lt;/a&gt;&lt;/li&gt;<br>
+                  &lt;li&gt;&lt;a class="main-nav" href="#"&gt;PROJECT&lt;a/&gt;&lt;/li&gt;<br>
+                &lt;/ul&gt;<br>
+              &lt;/nav&gt;
             </code>
             <p>The gird structure is also presented through main navigation.</p>
-            <code>
-              //////////////
-            </code>
-
 
             <h3>Rendered element:</h3>
             <nav>
-            <ul class="nav-container">
-              <li  class="nav-logo"><a href="#" class="nav-logo-item">JHW Design</a> </li>
+              <ul class="nav-container">
+                <li  class="nav-logo"><a href="#" class="nav-logo-item">JHW Design</a> </li>
 
-              <li><a class="main-nav" href="#">ABOUT</a></li>
-              <li><a class="main-nav" href="#">PROJECT</a></li>
-            </ul>
-          </nav>
+                <li><a class="main-nav" href="#">ABOUT</a></li>
+                <li><a class="main-nav" href="#">PROJECT</a></li>
+              </ul>
+            </nav>
 
           </section>
 
@@ -200,76 +196,76 @@
             </code>
 
             <h3>Rendered elements:</h3>
-            <!-- <div class="project-container">
-              <a href="#" class="project-item yellow">
-                <img src="image/beaver_cropped.png" class="project-item-img" alt="Videography:Taxidermy">
-                <div class="project-hover-text">
-                  <h2 class="project-item-title">videography</h2>
-                  <p class="project-item-description">cooperated with muesum of vancouver</p>
-                </div>
-              </a>
-            </div> -->
-
-
-          </section>
-
-          <section>
-            <h2>Colour Swatches</h2>
-            <p>Since the position that I am aiming for is content strategist, I think it would be great to use yellow, green and red-- hightlight colours that are typically used for grouping content as my main colour scheme. On the other hand, since most of the planning happen on paper so this is also why for the texts and the headings, they will be in black. </p>
-
-            <h3>Primary Colours</h3>
-            <div class="color-container">
-              <div class="colour-structure">
-                <div class="first-colour colour-box"></div>
-                <p class="swatch">#D69D53</p>
-                <p>for hover/focus state of the buttons.</p>
-              </div>
-              <div class="colour-structure">
-                <div class="second-colour colour-box"></div>
-                <p class="swatch">#339D8B</p>
-                <p>for hover/focus state of the buttons.</p>
-              </div>
-              <div class="colour-structure">
-                <div class="third-colour colour-box"></div>
-                <p class="swatch">#B35F5E</p>
-                <p>for hover/focus state of the buttons.</p>
-              </div>
-              <div class="colour-structure">
-                <div class="forth-colour colour-box"></div>
-                <p class="swatch">#EAE9E9</p>
-                <p>text and heading</p>
-              </div>
-            </div>
-            <h3>Background Colours</h3>
-            <div class="color-container">
-              <div class="colour-structure">
-                <div class="fifth-colour colour-box"></div>
-                <p class="swatch">#3C3C3C</p>
-                <p>For background</p>
-              </div>
-
-              <div class="colour-structure">
-                <div class="sixth-colour colour-box"></div>
-                <p class="swatch">#fff</p>
-                <p>For section background</p>
-              </div>
-
-              <div class="colour-structure">
-                <div class="seventh-colour colour-box"></div>
-                <p class="swatch">#DBDBDB</p>
-                <p>borderline</p>
-              </div>
-
-            </div>
-          </section>
-        </section>
+            <div class="project-container">
+            <a href="#" class="project-item yellow">
+            <img src="image/beaver_cropped.png" class="project-item-img" alt="Videography:Taxidermy">
+            <div class="project-hover-text">
+            <h2 class="project-item-title">videography</h2>
+            <p class="project-item-description">cooperated with muesum of vancouver</p>
+          </div>
+        </a>
       </div>
-    </div>
-
-    <!-- // COMBINED ELEMENTS SECTION -->
 
 
+    </section>
+
+    <section>
+      <h2>Colour Swatches</h2>
+      <p>Since the position that I am aiming for is content strategist, I think it would be great to use yellow, green and red-- hightlight colours that are typically used for grouping content as my main colour scheme. On the other hand, since most of the planning happen on paper so this is also why for the texts and the headings, they will be in black. </p>
+
+      <h3>Primary Colours</h3>
+      <div class="color-container">
+        <div class="colour-structure">
+          <div class="first-colour colour-box"></div>
+          <p class="swatch">#D69D53</p>
+          <p>for hover/focus state of the buttons.</p>
+        </div>
+        <div class="colour-structure">
+          <div class="second-colour colour-box"></div>
+          <p class="swatch">#339D8B</p>
+          <p>for hover/focus state of the buttons.</p>
+        </div>
+        <div class="colour-structure">
+          <div class="third-colour colour-box"></div>
+          <p class="swatch">#B35F5E</p>
+          <p>for hover/focus state of the buttons.</p>
+        </div>
+        <div class="colour-structure">
+          <div class="forth-colour colour-box"></div>
+          <p class="swatch">#EAE9E9</p>
+          <p>text and heading</p>
+        </div>
+      </div>
+      <h3>Background Colours</h3>
+      <div class="color-container">
+        <div class="colour-structure">
+          <div class="fifth-colour colour-box"></div>
+          <p class="swatch">#3C3C3C</p>
+          <p>For background</p>
+        </div>
+
+        <div class="colour-structure">
+          <div class="sixth-colour colour-box"></div>
+          <p class="swatch">#fff</p>
+          <p>For section background</p>
+        </div>
+
+        <div class="colour-structure">
+          <div class="seventh-colour colour-box"></div>
+          <p class="swatch">#DBDBDB</p>
+          <p>borderline</p>
+        </div>
+
+      </div>
+    </section>
+  </section>
+</div>
+</div>
+
+<!-- // COMBINED ELEMENTS SECTION -->
 
 
-  </body>
-  </html>
+
+
+</body>
+</html>

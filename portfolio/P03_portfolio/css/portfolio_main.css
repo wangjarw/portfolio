@@ -62,6 +62,11 @@ a:hover {
   color:#B35F5E;
 }
 
+.nav-link:hover{
+  text-decoration: none;
+  color:#3C3C3C;
+}
+
 /*nav*/
 .nav-container li{
   list-style-type:none;
