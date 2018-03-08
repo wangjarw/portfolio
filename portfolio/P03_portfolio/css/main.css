@@ -138,9 +138,9 @@ ul.citations li{
   font-family:'Ubuntu' ,sans-sans-serif;
 }
 
-ul{
+/* ul{
   max-width:75%;
-}
+} */
 
 .nav-container li{
   list-style-type:none;
@@ -320,6 +320,7 @@ COMBINED ELEMENTS -------------------
 
 .nav-container ul{
   padding-left:0;
+  width: 100%;
 }
 
 .nav-logo{
@@ -346,7 +347,7 @@ nav ul {
 
 nav li {
   display:inline-block;
-  /* margin: 1rem 1.5rem; */
+   margin: 1rem 1rem;
 }
 
 
