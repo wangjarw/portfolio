@@ -85,11 +85,6 @@ thru media queries at the end*/
 
 }
 
-.product-structure{
-	flex-basis:100%;
-	margin:0 1rem;
-}
-
 .nav-item-structure{
 	flex-basis:100%;
 	text-align:center;
@@ -137,7 +132,7 @@ thru media queries at the end*/
 
 	}
 
-	.product-structure, .nav-item-structure{
+	 .nav-item-structure{
 		flex-basis:15%;
 	}
 

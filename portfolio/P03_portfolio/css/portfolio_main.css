@@ -6,3 +6,7 @@ h1{
   font-family: 'Kalam', cursive;
   color:#3C3C3C;
 }
+
+img{
+  max-width:60%;
+}
