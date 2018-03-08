@@ -139,7 +139,7 @@ ul.citations li{
 }
 
 /* ul{
-  max-width:75%;
+max-width:75%;
 } */
 
 .nav-container li{
@@ -286,7 +286,7 @@ TEXT ELEMENTS -------------------
 .sample-para{
   font-family: 'Open Sans', sans-serif;
   max-width:95%;
-  line-height:1.8rem;
+  line-height:1.5rem;
 
 }
 
@@ -299,11 +299,11 @@ background-color:#e0e0e0;
 } */
 
 .styling-bullet{
-  list-style-type: square;
-  font-family:'Ubuntu' ,sans-sans-serif;
-  color:#888888;
-  font-size:1.1rem;
-  line-height:1.8rem;
+  font-family: 'Open Sans', sans-serif;
+  color:#3C3C3C;
+  font-weight:bold;
+  font-size:0.9rem;
+  line-height:1.3rem;
 }
 
 /* .styling-ordered{
@@ -347,7 +347,7 @@ nav ul {
 
 nav li {
   display:inline-block;
-   margin: 1rem 1rem;
+  margin: 1rem 1rem;
 }
 
 
