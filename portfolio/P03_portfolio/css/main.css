@@ -142,7 +142,7 @@ ul{
   max-width:75%;
 }
 
-.nav-styling li{
+.nav-container li{
   list-style-type:none;
 }
 
@@ -157,6 +157,7 @@ INTERACTIVE ELEMENTS -------------------
   font-weight:bold;
   text-decoration: none;
   color:#3C3C3C;
+  margin-bottom:1rem;
 
   position: relative;
   width: 5rem;
@@ -316,6 +317,33 @@ line-height:1.8rem;
 /*
 COMBINED ELEMENTS -------------------
 */
+
+nav {
+  width: 100%;
+}
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin: 1rem 1.5rem;
+}
+
+.nav-logo{
+  margin-right:auto;
+}
+
+.nav-logo-item{
+  max-width: 100%;
+  margin: 0.5rem 2.5rem;
+  margin-left: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color:#3C3C3C;
+  font-size: 1.75rem;
+  font-weight:bold;
+}
+
 
 .project-item {
   display: inline-block;
