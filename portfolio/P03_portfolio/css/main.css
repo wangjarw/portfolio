@@ -395,7 +395,7 @@ font-weight:bold;
 
 .project-item {
   background-color: transparent;
-  border: 1.3px solid #d0d0d0;
+  border: 1.4px solid #d0d0d0;
 
 }
 
@@ -412,7 +412,7 @@ font-weight:bold;
 .project-item:before {
   width: 0;
   height: 100%;
-  border-width: 1.3px 0 1.3px 0;
+  border-width: 1.4px 0 1.3px 0;
   top: -1px;
   left: 0;
   -webkit-transition-delay: 0.05s;
@@ -423,7 +423,7 @@ font-weight:bold;
 .project-item:after {
   width: 100%;
   height: 0;
-  border-width: 0 1.3px 0 1.3px;
+  border-width: 0 1.4px 0 1.3px;
   top: 0;
   left: -1px;
 }
@@ -437,9 +437,10 @@ font-weight:bold;
   border-color: #D69D53;
 }
 
-.yellow:hover:after{
-  width:100%;
-  height:100%;
+.yellow:after{
+  opacity:0.5;
+  /* width:100%;
+  height:100%; */
   background-color: #D69D53;
 }
 
