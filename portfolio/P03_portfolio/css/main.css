@@ -117,6 +117,8 @@ section code {
   display: block;
   max-width:100%
 }
+
+
 a, a:hover {
   text-decoration: none;
 }
@@ -135,7 +137,7 @@ max-width:100%;
 ul.citations li{
   list-style-type:none;
   padding:0.5rem 0;
-  font-family:'Ubuntu' ,sans-sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* ul{
