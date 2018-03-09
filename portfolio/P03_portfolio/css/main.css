@@ -393,17 +393,13 @@ font-weight:bold;
 }
 
 
-
-a:hover img{
-  opacity: .5;
-}
-
-
 .project-item {
   background-color: transparent;
   border: 1.3px solid #d0d0d0;
 
 }
+
+
 .project-item:before, .project-item:after {
   content: '';
   border-style: solid;
@@ -439,6 +435,12 @@ a:hover img{
 }
 .yellow:before, .yellow:after {
   border-color: #D69D53;
+}
+
+.yellow:hover:after{
+  width:100%;
+  height:100%;
+  background-color: #D69D53;
 }
 
 /*swatches*/
