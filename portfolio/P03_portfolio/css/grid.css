@@ -99,7 +99,7 @@ thru media queries at the end*/
 	text-align:center;
 }
 
-.project-container{
+/* .project-container{
 	position:relative;
 	display: -webkit-flex;
 	display: -ms-flex;
@@ -108,7 +108,7 @@ thru media queries at the end*/
 
 .project-item{
 	flex-basis:100%;
-}
+} */
 
 @media(min-width:50.25em){
 
