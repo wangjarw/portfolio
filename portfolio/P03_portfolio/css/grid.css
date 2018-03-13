@@ -101,6 +101,13 @@ thru media queries at the end*/
 
 .project-container{
 	position:relative;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+}
+
+.project-item{
+	flex-basis:100%;
 }
 
 @media(min-width:50.25em){
