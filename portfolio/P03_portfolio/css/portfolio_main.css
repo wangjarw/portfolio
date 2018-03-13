@@ -181,14 +181,14 @@ nav li {
   display: inline-block;
   position:relative;
   /* line-height: 35px; */
-  margin: 1rem;
+  margin: 0.3rem;
   font-size: 1rem;
   opacity: .999;
   border-radius: 3px;
 }
 
 .project-item-img{
-  width:100%;
+  max-width:100%;
 }
 
 .project-item-title, .project-item-description{
@@ -264,4 +264,9 @@ nav li {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/*footer*/
+footer{
+  text-align:center;
 }
