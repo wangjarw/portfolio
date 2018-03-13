@@ -384,14 +384,6 @@ font-weight:bold;
   text-align: center
 }
 
-.project-hover-text{
-  position:absolute;
-  bottom:50%;
-  top:50%;
-  left:30%;
-  right:30%;
-}
-
 
 .project-item {
   background-color: transparent;
@@ -433,16 +425,35 @@ font-weight:bold;
 .project-item:hover:after {
   height: 100%;
 }
-.yellow:before, .yellow:after {
+.border-highlight-one:before, .border-highlight-one:after {
   border-color: #D69D53;
 }
 
-.yellow:after{
-  opacity:0.5;
-  /* width:100%;
-  height:100%; */
-  background-color: #D69D53;
+.project-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .5;
+  background-color: #3C3C3C;
 }
+
+
+.project-hover-text{
+  color: white;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
 
 /*swatches*/
 

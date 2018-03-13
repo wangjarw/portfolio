@@ -99,6 +99,10 @@ thru media queries at the end*/
 	text-align:center;
 }
 
+.project-container{
+	position:relative;
+}
+
 @media(min-width:50.25em){
 
   section code {
