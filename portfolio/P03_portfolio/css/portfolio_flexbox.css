@@ -19,7 +19,17 @@ thru media queries at the end*/
 	flex-basis:100%;
 }
 
+/*project display*/
+.project-container{
+	position:relative;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+}
 
+.project-item{
+	flex-basis:100%;
+}
 /*Nav*/
 /*port nav*/
 @media(min-width:49.375em){
