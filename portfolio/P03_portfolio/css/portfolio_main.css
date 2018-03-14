@@ -95,6 +95,8 @@ nav a:hover, nav a:focus {
   position: relative;
   width: 5rem;
   text-align: center;
+  -webkit-transition: color 0.3s ease-in-out 0s;
+  transition: color 0.3s ease-in-out 0s;
 }
 
 .main-nav-accent-two {
@@ -106,6 +108,8 @@ nav a:hover, nav a:focus {
   position: relative;
   width: 5rem;
   text-align: center;
+  -webkit-transition: color 0.3s ease-in-out 0s;
+  transition: color 0.3s ease-in-out 0s;
 }
 
 
@@ -136,6 +140,10 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
   transform: scaleX(1);
 }
 
+.main-nav-accent-one:hover, .main-nav-accent-one:focus {
+  color:#B35F5E;
+}
+
 .main-nav-accent-two:before{
   content: "";
   position: absolute;
@@ -157,6 +165,10 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+.main-nav-accent-two:hover, .main-nav-accent-two:focus {
+  color:#D69D53;
 }
 
 .nav-container ul{
@@ -210,6 +222,13 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
   font-size: 1.5rem;
   text-align:center;
   font-weight:bold;
+
+  -webkit-transition: color 0.3s ease-in-out 0s;
+  transition: color 0.3s ease-in-out 0s;
+}
+
+.nav-logo-item:hover, .nav-logo-item:focus{
+  color:#339D8B;
 }
 
 nav {
@@ -231,7 +250,7 @@ nav li {
   line-height:1.5rem;
   text-decoration:none;
   color:#339D8B;
-  font-weight:bold;
+  /* font-weight:bold; */
 
   -webkit-transition: color 0.2s ease-in;
   transition:  color 0.2s ease-in;
