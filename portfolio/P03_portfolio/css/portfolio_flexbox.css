@@ -87,7 +87,7 @@ thru media queries at the end*/
 
 @media(min-width:56.25em){
 	.project-item{
-		flex-basis:25%;
+		flex-basis:24%;
 	}
 
 	.project-hover-text{
