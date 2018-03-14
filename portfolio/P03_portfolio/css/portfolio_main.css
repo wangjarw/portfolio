@@ -275,7 +275,7 @@ nav li {
   position: absolute;
   width:100%;
   top: 50%;
-  left: 55%;
+  left: 60%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
