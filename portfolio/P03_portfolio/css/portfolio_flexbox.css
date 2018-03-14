@@ -101,11 +101,11 @@ thru media queries at the end*/
 	-ms-justify-content: flex-start;
 	justify-content: flex-start;
 
-	margin:0 1rem;
 }
 
 .overview-vid-item{
 flex-basis:100%;
+padding:0 1rem;
 }
 
 
