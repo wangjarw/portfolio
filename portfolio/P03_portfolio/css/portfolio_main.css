@@ -179,7 +179,7 @@ nav li {
 /*project display*/
 .project-item {
   display: inline-block;
-  position:relative;
+      position:relative;
   /* line-height: 35px; */
   margin: 0.3rem;
   font-size: 1rem;
@@ -259,7 +259,7 @@ nav li {
   height: 100%;
   width: 100%;
   opacity: .7;
-  background-color:  #3C3C3C;
+  background-color: #DBDBDB;
 }
 
 .project-description{
@@ -268,11 +268,12 @@ nav li {
 
 
 .project-hover-text{
-  color:#DBDBDB;
+  color: #3C3C3C;
   font-size: 0.8rem;
   font-weight:bold;
   line-height:0.1rem;
   position: absolute;
+  width:100%;
   top: 50%;
   left: 55%;
   transform: translate(-50%, -50%);
