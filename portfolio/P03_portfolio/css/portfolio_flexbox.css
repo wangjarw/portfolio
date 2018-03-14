@@ -67,7 +67,7 @@ thru media queries at the end*/
 	}
 
 	.project-hover-text{
-	  font-size: 1rem;
+	  font-size: 0.9rem;
 	}
 }
 
@@ -77,6 +77,6 @@ thru media queries at the end*/
 	}
 
 	.project-hover-text{
-		font-size: 1rem;
+		font-size: 0.9rem;
 	}
 }
