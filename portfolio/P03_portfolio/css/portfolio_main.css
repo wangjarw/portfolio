@@ -50,6 +50,14 @@ figCaption{
   font-size:0.9rem;
 }
 
+#contact{
+  font-family:'Roboto', sans-serif;
+  font-size:0.75rem;
+  color:#3C3C3C;
+  line-height:1rem;
+  max-width:100%;
+}
+
 /*for footer nav link*/
 a{
   text-decoration: none;
@@ -242,7 +250,7 @@ nav ul {
 
 nav li {
   display:inline-block;
-   margin: 1rem 1rem;
+   margin: 0.3rem 1rem;
 }
 
 /*intext link*/
