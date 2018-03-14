@@ -69,13 +69,18 @@ figCaption{
 }
 
 .styling-bullet li{
-  max-width:70%;
+  max-width:100%;
 }
 
 
 /*vid and overview*/
 .overview-accent-color-one{
-  background-color:#339D8B;
+  background-color:rgba(51, 157, 139, .8);
+  padding: 1rem 0;
+}
+
+.overview-accent-color-two{
+  background-color:rgba(179, 95, 94, 0.9);
   padding: 1rem 0;
 }
 
