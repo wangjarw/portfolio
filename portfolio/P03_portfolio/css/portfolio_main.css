@@ -15,7 +15,7 @@ h1{
   color:#3C3C3C;
 }
 
- h2 {
+h2 {
   margin-top: 0;
   margin-bottom: 0.5em;
   color:#3C3C3C;
@@ -56,6 +56,27 @@ figCaption{
   color:#3C3C3C;
   line-height:1rem;
   max-width:100%;
+}
+
+/*ul*/
+.styling-bullet{
+  font-family: 'Open Sans', sans-serif;
+  color:white;
+  font-weight:bold;
+  font-size:0.9rem;
+  line-height:1.3rem;
+  list-style: none;
+}
+
+.styling-bullet li{
+  max-width:70%;
+}
+
+
+/*vid and overview*/
+.overview-accent-color-one{
+  background-color:#339D8B;
+  padding: 1rem 0;
 }
 
 /*for footer nav link*/
@@ -250,7 +271,7 @@ nav ul {
 
 nav li {
   display:inline-block;
-   margin: 0.3rem 1rem;
+  margin: 0.3rem 1rem;
 }
 
 /*intext link*/
@@ -275,7 +296,7 @@ nav li {
 /*project display*/
 .project-item {
   display: inline-block;
-      position:relative;
+  position:relative;
   /* line-height: 35px; */
   margin: 0.3rem;
   font-size: 1rem;
