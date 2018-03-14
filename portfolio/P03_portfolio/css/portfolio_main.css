@@ -61,10 +61,21 @@ figCaption{
 /*ul*/
 .styling-bullet{
   font-family: 'Open Sans', sans-serif;
-  color:#3C3C3C;
+  color:white;
   font-weight:bold;
   font-size:0.9rem;
   line-height:1.3rem;
+}
+
+.styling-bullet li{
+    max-width:70%;
+}
+
+
+/*vid and overview*/
+.overview-accent-color-one{
+  background-color:#339D8B;
+  padding: 1rem 0;
 }
 
 /*for footer nav link*/
