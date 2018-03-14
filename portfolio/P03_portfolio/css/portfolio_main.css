@@ -58,6 +58,15 @@ figCaption{
   max-width:100%;
 }
 
+/*ul*/
+.styling-bullet{
+  font-family: 'Open Sans', sans-serif;
+  color:#3C3C3C;
+  font-weight:bold;
+  font-size:0.9rem;
+  line-height:1.3rem;
+}
+
 /*for footer nav link*/
 a{
   text-decoration: none;
