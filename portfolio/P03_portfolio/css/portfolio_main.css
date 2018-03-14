@@ -15,7 +15,7 @@ h1{
   color:#3C3C3C;
 }
 
- h2 {
+h2 {
   margin-top: 0;
   margin-bottom: 0.5em;
   color:#3C3C3C;
@@ -65,10 +65,11 @@ figCaption{
   font-weight:bold;
   font-size:0.9rem;
   line-height:1.3rem;
+  list-style: none;
 }
 
 .styling-bullet li{
-    max-width:70%;
+  max-width:70%;
 }
 
 
@@ -270,7 +271,7 @@ nav ul {
 
 nav li {
   display:inline-block;
-   margin: 0.3rem 1rem;
+  margin: 0.3rem 1rem;
 }
 
 /*intext link*/
@@ -295,7 +296,7 @@ nav li {
 /*project display*/
 .project-item {
   display: inline-block;
-      position:relative;
+  position:relative;
   /* line-height: 35px; */
   margin: 0.3rem;
   font-size: 1rem;
