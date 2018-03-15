@@ -42,12 +42,33 @@ p{
   line-height:1.5rem;
 }
 
+.project-paragraph{
+  margin:1rem auto;
+}
+
+.first-paragraph{
+  margin-top:3rem;
+}
+
 figCaption{
   font-family:'Roboto', sans-serif;
   font-weight:bold;
+  max-width:100%;
   color:#3C3C3C;
   padding-bottom:1rem;
   font-size:0.9rem;
+}
+
+figure{
+margin: 1rem 0.5rem;
+}
+
+.project-image{
+  max-width:100%;
+}
+
+.small-image{
+  width:100%;
 }
 
 #contact{
@@ -72,6 +93,11 @@ figCaption{
   max-width:100%;
 }
 
+/*overview image*/
+.overview-image-item{
+  max-width:100%;
+  padding:0 2.4rem;
+}
 
 /*vid and overview*/
 .overview-accent-color-one{
