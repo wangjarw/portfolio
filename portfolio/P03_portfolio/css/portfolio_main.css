@@ -46,6 +46,10 @@ p{
   margin:1rem auto;
 }
 
+.first-paragraph{
+  margin-top:3rem;
+}
+
 figCaption{
   font-family:'Roboto', sans-serif;
   font-weight:bold;
@@ -89,6 +93,11 @@ margin: 1rem 0.5rem;
   max-width:100%;
 }
 
+/*overview image*/
+.overview-image-item{
+  max-width:100%;
+  padding:0 2.4rem;
+}
 
 /*vid and overview*/
 .overview-accent-color-one{
