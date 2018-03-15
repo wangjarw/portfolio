@@ -312,6 +312,7 @@ nav li {
 .project-item-img{
   max-width:100%;
   padding:0.5rem;
+  vertical-align:center;
 }
 
 .project-item-title, .project-item-description{
