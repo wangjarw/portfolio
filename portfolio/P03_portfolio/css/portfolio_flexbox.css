@@ -126,6 +126,25 @@ padding:0 1.5rem;
 
 }
 
+@media(min-width:56.25em){
+
+	figure{
+	margin-top: 1rem;
+	margin-left: 15%;
+	}
+
+	.project-image{
+		max-width:60%;
+	}
+
+	figCaption{
+		max-width:60%;
+	}
+
+	.project-paragraph{
+		max-width:70%;
+	}
+}
 
 /*Nav*/
 /*port nav*/
