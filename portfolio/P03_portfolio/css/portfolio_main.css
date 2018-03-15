@@ -62,6 +62,10 @@ margin: 1rem 0.5rem;
   max-width:100%;
 }
 
+.small-image{
+  width:100%;
+}
+
 #contact{
   font-family:'Roboto', sans-serif;
   font-size:0.75rem;
