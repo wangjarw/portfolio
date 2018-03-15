@@ -42,6 +42,10 @@ p{
   line-height:1.5rem;
 }
 
+.project-paragraph{
+  margin:1rem auto;
+}
+
 figCaption{
   font-family:'Roboto', sans-serif;
   font-weight:bold;
@@ -51,7 +55,7 @@ figCaption{
 }
 
 figure{
-margin: 1rem 0.5rem; 
+margin: 1rem 0.5rem;
 }
 
 .project-image{
