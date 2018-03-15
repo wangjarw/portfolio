@@ -109,7 +109,22 @@ padding:0 1.5rem;
 }
 
 
-/*project content*/
+/*project image*/
+@media(min-width:37.5em) and (max-width:56.25em){
+	figure{
+	margin-top: 1rem;
+	margin-left: 10%;
+	}
+
+	.project-image{
+	  max-width:80%;
+	}
+
+	figCaption{
+	  max-width:70%;
+	}
+
+}
 
 
 /*Nav*/

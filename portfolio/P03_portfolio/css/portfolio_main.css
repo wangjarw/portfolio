@@ -49,6 +49,7 @@ p{
 figCaption{
   font-family:'Roboto', sans-serif;
   font-weight:bold;
+  max-width:100%;
   color:#3C3C3C;
   padding-bottom:1rem;
   font-size:0.9rem;
