@@ -23,6 +23,16 @@ h2 {
   font-weight:bolder;
 }
 
+.project-name-vid, .project-title-vid{
+  color:white;
+  margin-left:1.5rem;
+}
+
+.project-name, .project-title{
+  color:white;
+  margin-left:2.3rem;
+}
+
 h3{
   margin-bottom: 0;
   font-family: 'Roboto', sans-serif;
