@@ -89,6 +89,11 @@ margin: 1rem 0.5rem;
   max-width:100%;
 }
 
+/*about*/
+.about-para{
+  max-width:100%;
+}
+
 /*ul*/
 .styling-bullet{
   font-family: 'Open Sans', sans-serif;
