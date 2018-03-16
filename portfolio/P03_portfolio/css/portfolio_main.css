@@ -94,6 +94,14 @@ margin: 1rem 0.5rem;
   max-width:100%;
 }
 
+/* .about-text{
+  order:2;
+}
+
+.about-img{
+  order:1;
+} */
+
 /*ul*/
 .styling-bullet{
   font-family: 'Open Sans', sans-serif;

@@ -230,7 +230,7 @@ padding:0 1.5rem;
 
 @media(min-width:56.25em){
 	.project-item{
-		flex-basis:24%;
+		flex-basis:25%;
 	}
 
 	.project-hover-text{
@@ -256,7 +256,13 @@ padding:0 1.5rem;
 	.about-item{
 		flex-basis:50%;
 	}
+	/* .about-text{
+	  order:1;
+	}
 
+	.about-img{
+	  order:2;
+	} */
 }
 
 @media(min-width:56.25em){
@@ -264,5 +270,13 @@ padding:0 1.5rem;
 	.about-item{
 		flex-basis:50%;
 	}
+
+	/* .about-text{
+		order:1;
+	}
+
+	.about-img{
+		order:2;
+	} */
 
 }
