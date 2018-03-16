@@ -242,6 +242,15 @@ padding:0 1.5rem;
 		flex-basis:30%;
 	}
 
+	#recent-project-footer{
+	  padding-top:1.5rem;
+	  position:absolute;
+	  width:100%;
+	  bottom:0;
+	  left:0;
+	   background-color:#EAE9E9;
+	}
+
 	.overview-vid-item{
 	flex-basis:45%;
 	}
@@ -263,6 +272,15 @@ padding:0 1.5rem;
 
 	.recent-project-item{
 		flex-basis:20%;
+	}
+
+	#recent-project-footer{
+	  padding-top:1.5rem;
+	  position:absolute;
+	  width:100%;
+	  bottom:0;
+	  left:0;
+	   background-color:#EAE9E9;
 	}
 
 	.overview-vid-item{

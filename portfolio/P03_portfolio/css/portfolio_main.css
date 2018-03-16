@@ -478,11 +478,9 @@ nav li {
 
 #recent-project-footer{
   padding-top:1.5rem;
-  position:absolute;
   width:100%;
-  bottom:0;
-  left:0;
-  background-color:#EAE9E9;
+margin-bottom:0;
+   background-color:#EAE9E9;
 }
 
 .recent-project-item {
