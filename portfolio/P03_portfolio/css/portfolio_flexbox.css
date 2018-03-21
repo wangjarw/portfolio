@@ -300,12 +300,28 @@ padding:0 1.5rem;
 	.about-item{
 		flex-basis:50%;
 	}
+
+	#photo_one{
+	  display:none;
+	}
+
+	#photo_two{
+	  display:flex;
+	}
 }
 
 @media(min-width:56.25em){
 
 	.about-item{
 		flex-basis:50%;
+	}
+
+	#photo_one{
+	  display:none;
+	}
+
+	#photo_two{
+	  display:flex;
 	}
 
 
