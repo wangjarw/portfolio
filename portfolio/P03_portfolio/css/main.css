@@ -254,76 +254,6 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
   color:#3C3C3C;
 }
 
-/* .submit-reset-button-style{
-
-display: inline-block;
-font-family:'Ubuntu' ,sans-sans-serif;
-padding: 0.5em 0.75em;
-color: #ffffff;
-background-color: #653e8a;
-border-radius: 0.5rem;
-border-style:solid;
-border-color:#ffffff;
-border-width:thin;
-margin: 0.3rem 0;
-
-
--webkit-transition:  color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
-transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
-}
-
-.submit-reset-button-style:hover, .submit-reset-button-style:focus{
-
-color: #653e8a;
-border-color:#653e8a;
-background-color: #ffffff;
-
-} */
-
-/* .button-style{
-
-display: inline-block;
-font-family:'Ubuntu' ,sans-sans-serif;
-padding: 0.5em 0.75em;
-color: #ffffff;
-background-color: #653e8a;
-border-radius: 1rem;
-border-style:solid;
-border-width:thin;
-border-color:#ffffff;
-
-
--webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
-}
-
-.button-style:hover, .button-style:focus{
-
-background-color: #ffffff;
-color:#d89a41;
-border-color:#d89a41;
-
-} */
-
-/*
-form{
-font-family:'Ubuntu' ,sans-sans-serif;
-color:#888888;
-
-}
-
-form input{
-font-family: 'Brawler', serif;
-font-size:1rem;
-padding: 0.2rem 0.2rem;
-
-}
-
-form input[type^=text]{
-border-radius:0.4rem;
-border: 0.1rem solid #653e8a;
-margin:0.8rem 0.5rem;
-} */
 
 /*
 TEXT ELEMENTS -------------------
@@ -453,14 +383,16 @@ font-weight:bold;
   display: inline-block;
   position:relative;
   /* line-height: 35px; */
-  margin: 1rem;
+  margin: 0.3rem;
   font-size: 1rem;
   opacity: .999;
-  border-radius: 3px;
+  /* border-radius: 3px; */
 }
 
 .project-item-img{
-  width:100%;
+  max-width:100%;
+  padding:0.5rem;
+  vertical-align:center;
 }
 
 .project-item-title, .project-item-description{
@@ -472,8 +404,7 @@ font-weight:bold;
 
 .project-item {
   background-color: transparent;
-  border: 1.5px solid #d0d0d0;
-
+  border: 1.6px solid #d0d0d0;
 }
 
 
@@ -482,25 +413,25 @@ font-weight:bold;
   border-style: solid;
   position: absolute;
   z-index: 5;
-  border-radius: 3px;
+  /* border-radius: 3px; */
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
 .project-item:before {
   width: 0;
   height: 100%;
-  border-width: 1.5px 0 1.5px 0;
+  border-width: 1.6px 0 1.6px 0;
   top: -1px;
   left: 0;
-  -webkit-transition-delay: 0.05s;
-  transition-delay: 0.05s;
+  -webkit-transition-delay: 0.08s;
+  transition-delay: 0.08s;
 }
 
 
 .project-item:after {
   width: 100%;
   height: 0;
-  border-width: 0 1.5px 0 1.5px;
+  border-width: 0 1.6px 0 1.6px;
   top: 0;
   left: -1px;
 }
@@ -514,6 +445,14 @@ font-weight:bold;
   border-color: #D69D53;
 }
 
+.border-highlight-two:before, .border-highlight-two:after {
+  border-color: #339D8B;
+}
+
+.border-highlight-three:before, .border-highlight-three:after {
+  border-color: #B35F5E;
+}
+
 .project-overlay{
   position: absolute;
   top: 0;
@@ -522,21 +461,29 @@ font-weight:bold;
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: .5;
-  background-color: #3C3C3C;
+  opacity: .7;
+  background-color: #fff;
+}
+
+.project-description{
+  line-height:1.3rem;
 }
 
 
 .project-hover-text{
-  color: white;
+  color: #3C3C3C;
   font-size: 0.8rem;
+  font-weight:600;
+  line-height:0.1rem;
   position: absolute;
+  width:100%;
   top: 50%;
-  left: 55%;
+  left: 60%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+
 
 
 
