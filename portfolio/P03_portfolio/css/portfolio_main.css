@@ -83,6 +83,7 @@ margin: 1rem 0.5rem;
 
 #contact{
   font-family:'Roboto', sans-serif;
+  display:inline-block;
   font-size:0.75rem;
   color:#3C3C3C;
   line-height:1rem;
@@ -94,13 +95,13 @@ margin: 1rem 0.5rem;
   max-width:100%;
 }
 
-/* .about-text{
-  order:2;
+#photo_one{
+  display:flex;
 }
 
-.about-img{
-  order:1;
-} */
+#photo_two{
+  display:none;
+}
 
 /*ul*/
 .styling-bullet{
@@ -266,7 +267,7 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
 }
 
 
-.nav-logo-item{
+/* .nav-logo-item{
   display:inline-block;
   margin:0.5rem 0;
   margin-left:0;
@@ -275,7 +276,7 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
   font-size: 1.5rem;
   text-align:center;
   font-weight:bold;
-}
+} */
 .main-nav-accent-one:before{
   content: "";
   position: absolute;
@@ -321,6 +322,7 @@ nav {
 }
 nav ul {
   list-style: none;
+  /* padding-left:0; */
 }
 
 nav li {

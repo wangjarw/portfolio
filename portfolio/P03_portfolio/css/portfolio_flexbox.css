@@ -11,7 +11,8 @@ thru media queries at the end*/
 /*portfolio nav*/
 .nav-container{
 	/* display:block;
-	margin:0; */
+	margin:0;
+	text-align:center; */
 	-webkit-justify-display:flex;
 	display: -ms-flex;
 	display: flex;
@@ -29,9 +30,6 @@ thru media queries at the end*/
 
 }
 
-.main-nav{
-	flex-basis:100%;
-}
 
 /*project display*/
 .project-container{
@@ -302,13 +300,14 @@ padding:0 1.5rem;
 	.about-item{
 		flex-basis:50%;
 	}
-	/* .about-text{
-	  order:1;
+
+	#photo_one{
+	  display:none;
 	}
 
-	.about-img{
-	  order:2;
-	} */
+	#photo_two{
+	  display:flex;
+	}
 }
 
 @media(min-width:56.25em){
@@ -317,12 +316,13 @@ padding:0 1.5rem;
 		flex-basis:50%;
 	}
 
-	/* .about-text{
-		order:1;
+	#photo_one{
+	  display:none;
 	}
 
-	.about-img{
-		order:2;
-	} */
+	#photo_two{
+	  display:flex;
+	}
+
 
 }

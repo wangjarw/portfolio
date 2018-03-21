@@ -50,13 +50,13 @@
             <h3>Sample code:</h3>
             <code>
               &lt;ul&gt;
-              &lt;li class="main-nav" href="#">NAV BAR&lt;/li&gt;
+              &lt;li class="main-nav-accent-one" href="#">NAV BAR&lt;/li&gt;
               &lt;/ul&gt;
             </code>
 
             <h3>Rendered element:</h3>
             <ul class="nav-container">
-              <li><a class="main-nav" href="#">NAV BAR</a></li>
+              <li><a class="main-nav-accent-one nav-link" href="#">NAV BAR</a></li>
             </ul>
           </section>
 
@@ -159,15 +159,16 @@
           <section>
             <h2>Main Navigation</h2>
             <h3>CSS selector:</h3>
-            <p>.nav-container, .nav-logo-item, .nav-logo, nav li, nav ul</p>
+            <p>.nav-container, .nav-logo-item, .nav-logo, nav li, nav ul, .main-nav-accent-one, .main-nav-accent-two</p>
             <h3>Sample code:</h3>
             <code>
               &lt;nav&gt;<br>
               &lt;ul class="nav-container"&gt;<br>
               &lt;li  class="nav-logo"&gt;&lt;a href="#" class="nav-logo-item"&gt;JHW Design&lt;/a&gt; &lt;/li&gt;<br>
 
-              &lt;li&gt;&lt;a class="main-nav" href="#"&gt;ABOUT&lt;/a&gt;&lt;/li&gt;<br>
-              &lt;li&gt;&lt;a class="main-nav" href="#"&gt;PROJECT&lt;a/&gt;&lt;/li&gt;<br>
+              &lt;li&gt;&lt;a class="main-nav-accent-one nav-link" href="#"&gt;ABOUT&lt;/a&gt;&lt;/li&gt;<br>
+              &lt;li&gt;&lt;a class="main-nav-accent-two nav-link" href="#"&gt;PROJECT&lt;a/&gt;&lt;/li&gt;<br>
+              &t;li&gt;&lt;p id="contact"&gtcontact info: sherry95jhw@gmail.com 778-883-0926&lt;/p&gt&lt;/li&gt
               &lt;/ul&gt;<br>
               &lt;/nav&gt;
             </code>
@@ -175,13 +176,14 @@
 
             <h3>Rendered element:</h3>
             <nav>
-              <ul class="nav-container">
-                <li  class="nav-logo"><a href="#" class="nav-logo-item">JHW Design</a> </li>
+            <ul class="nav-container">
+              <li  class="nav-logo"><a href="portfolio.html" class="nav-logo-item nav-link">JHW Design</a> </li>
 
-                <li><a class="main-nav" href="#">ABOUT</a></li>
-                <li><a class="main-nav" href="#">PROJECT</a></li>
-              </ul>
-            </nav>
+              <li><a class="main-nav-accent-one nav-link" href="about.html">ABOUT</a></li>
+              <li><a class="main-nav-accent-two nav-link" href="project_display.html">PROJECT</a></li>
+              <li><p id="contact">contact info:<br>sherry95jhw@gmail.com<br>778-883-0926</p></li>
+            </ul>
+          </nav>
 
           </section>
 
@@ -197,13 +199,13 @@
 
             <h3>Rendered elements:</h3>
             <div class="project-container">
-              <a href="#" class="project-item border-highlight-one">
+              <a href="taxidermy.html" class="project-item border-highlight-one">
                 <div class = "project-img-container">
                   <img src="image/taxidermy.jpg" class="project-item-img" alt="Videography:Taxidermy">
-                  <div class="project-overlay">
-                    <div class="project-hover-text">
-                      <p>Videography:a taxidermy documentary with museum of vancouver</p>
-                    </div>
+                </div>
+                <div class="project-overlay">
+                  <div class="project-hover-text">
+                    <p class="project-description">documentary</p>
                   </div>
                 </div>
               </a>
