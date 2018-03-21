@@ -83,6 +83,7 @@ margin: 1rem 0.5rem;
 
 #contact{
   font-family:'Roboto', sans-serif;
+  display:inline-block;
   font-size:0.75rem;
   color:#3C3C3C;
   line-height:1rem;
