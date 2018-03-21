@@ -11,7 +11,8 @@ thru media queries at the end*/
 /*portfolio nav*/
 .nav-container{
 	/* display:block;
-	margin:0; */
+	margin:0;
+	text-align:center; */
 	-webkit-justify-display:flex;
 	display: -ms-flex;
 	display: flex;
@@ -29,9 +30,6 @@ thru media queries at the end*/
 
 }
 
-.main-nav{
-	flex-basis:100%;
-}
 
 /*project display*/
 .project-container{
