@@ -190,11 +190,22 @@
           <section>
             <h2>Project Listing & Overview</h2>
             <h3>CSS selector:</h3>
-            <p>/////////////</p>
+            <p>.project-container, .project-item, .border-highlight(one/two/three), .project-overlay, .project-hover-text</p>
 
             <h3>Sample code:</h3>
             <code>
-              ////
+              &lt;div class="project-container"&gt;
+                &lt;a href="taxidermy.html" class="project-item border-highlight-one"&gt;
+                  &lt;div class = "project-img-container"&gt;
+                    &lt;img src="image/taxidermy.jpg" class="project-item-img" alt="Videography:Taxidermy"&gt;
+                  &lt;/div&gt;
+                  &lt;div class="project-overlay"&gt;
+                    &lt;div class="project-hover-text"&gt;
+                      &lt;p class="project-description">documentary&lt;/p&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/a&gt;
+              &lt;/div&gt;
             </code>
 
             <h3>Rendered elements:</h3>
