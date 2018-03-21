@@ -95,13 +95,13 @@ margin: 1rem 0.5rem;
   max-width:100%;
 }
 
-/* .about-text{
-  order:2;
+#photo_one{
+  display:flex;
 }
 
-.about-img{
-  order:1;
-} */
+#photo_two{
+  display:none;
+}
 
 /*ul*/
 .styling-bullet{
