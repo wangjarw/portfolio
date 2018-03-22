@@ -78,7 +78,7 @@ figCaption{
 }
 
 figure{
-margin: 1rem 0.5rem;
+  margin: 1rem 0.5rem;
 }
 
 .project-image{
@@ -266,24 +266,28 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
 }
 
 .nav-container ul{
-  padding-left:0;
   width: 100%;
+  list-style: none;
+}
+
+nav ul{
+  padding-left:0;
 }
 
 .nav-logo{
-  margin-right:auto;
+  /* margin-right:auto; */
 }
 
 
 /* .nav-logo-item{
-  display:inline-block;
-  margin:0.5rem 0;
-  margin-left:0;
-  font-family: 'Roboto', sans-serif;
-  color:#3C3C3C;
-  font-size: 1.5rem;
-  text-align:center;
-  font-weight:bold;
+display:inline-block;
+margin:0.5rem 0;
+margin-left:0;
+font-family: 'Roboto', sans-serif;
+color:#3C3C3C;
+font-size: 1.5rem;
+text-align:center;
+font-weight:bold;
 } */
 .main-nav-accent-one:before{
   content: "";
@@ -327,10 +331,6 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
 
 nav {
   width: 100%;
-}
-nav ul {
-  list-style: none;
-  /* padding-left:0; */
 }
 
 nav li {
@@ -489,8 +489,8 @@ nav li {
 #recent-project-footer{
   padding-top:1.5rem;
   width:100%;
-margin-bottom:0;
-   background-color:#EAE9E9;
+  margin-bottom:0;
+  background-color:#EAE9E9;
 }
 
 .recent-project-item {
