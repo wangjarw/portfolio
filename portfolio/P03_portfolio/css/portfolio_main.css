@@ -274,9 +274,6 @@ nav ul{
   padding-left:0;
 }
 
-.nav-logo{
-  /* margin-right:auto; */
-}
 
 
 /* .nav-logo-item{
@@ -455,9 +452,9 @@ nav li {
   font-weight:600;
   line-height:0.1rem;
   position: absolute;
-  width:100%;
+  max-width:100%;
   top: 50%;
-  left: 60%;
+  left: 53%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
@@ -540,7 +537,7 @@ nav li {
   height: 100%;
 }
 
-.project-overlay{
+/* .project-overlay{
   position: absolute;
   top: 0;
   bottom: 0;
@@ -569,7 +566,7 @@ nav li {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-}
+} */
 
 /*footer*/
 footer{
