@@ -18,6 +18,7 @@ h1{
 }
 
 .chinese-name{
+  display:inline-block;
   font-family: ‘Noto Sans TC’, sans-serif;
   font-weight:200;
 }
@@ -91,7 +92,7 @@ margin: 1rem 0.5rem;
 #contact{
   font-family:'Roboto', sans-serif;
   display:inline-block;
-  font-size:0.75rem;
+  font-size:0.8rem;
   color:#3C3C3C;
   line-height:1rem;
   max-width:100%;
