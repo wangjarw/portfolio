@@ -63,28 +63,23 @@ thru media queries at the end*/
 
 /*portfolio nav*/
 .nav-container{
-	display:block;
-	margin:0;
-	/* display: -webkit-flex;
+	-webkit-justify-display:flex;
 	display: -ms-flex;
 	display: flex;
 
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
-	flex-wrap: wrap; */
+	flex-wrap: wrap;
 
-/*how to place the child elements*/
-	/* -webkit-justify-content: flex-start;
+	-webkit-justify-content: flex-start;
 	-ms-justify-content: flex-start;
-	justify-content: flex-start; */
+	justify-content: flex-start;
 
+	margin:0.8rem 0;
+	flex-direction:column;
+	align-items:center;
 
 }
-
-.main-nav{
-	flex-basis:100%;
-}
-
 
 
 .colour-structure{
@@ -250,7 +245,7 @@ thru media queries at the end*/
 /*port nav*/
 @media(min-width:49.375em){
 
-  .nav-container{
+  /* .nav-container{
 
     display: -webkit-flex;
     display: -ms-flex;
@@ -264,7 +259,7 @@ thru media queries at the end*/
     -ms-justify-content: flex-start;
     justify-content: flex-start;
 
-  }
+  } */
 }
 
 @media(min-width:45.62em) and (max-width:56.25em){
@@ -284,5 +279,30 @@ thru media queries at the end*/
 
 	.project-hover-text{
 		font-size: 1rem;
+	}
+}
+
+@media(min-width:31.25em){
+
+	.nav-logo{
+		margin-right:auto;
+	}
+
+	.nav-container{
+		-webkit-justify-display:flex;
+		display: -ms-flex;
+		display: flex;
+
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+
+		-webkit-justify-content: flex-start;
+		-ms-justify-content: flex-start;
+		justify-content: flex-start;
+
+		flex-direction:row;
+		margin:0.8rem 0;
+
 	}
 }
