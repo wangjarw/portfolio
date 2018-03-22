@@ -115,7 +115,7 @@ section code {
   background-color: #EEE;
   padding: 0.5em 0.75em;
   display: block;
-  max-width:100%
+  max-width:90%
 }
 
 
@@ -274,12 +274,14 @@ background-color:#e0e0e0;
 } */
 
 .styling-bullet{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
   color:#3C3C3C;
   font-weight:bold;
   font-size:0.9rem;
   line-height:1.3rem;
 }
+
 
 /* .styling-ordered{
 font-family:'Ubuntu' ,sans-sans-serif;
@@ -296,10 +298,6 @@ COMBINED ELEMENTS -------------------
 .nav-container ul{
   padding-left:0;
   width: 100%;
-}
-
-.nav-logo{
-  margin-right:auto;
 }
 
 
@@ -353,7 +351,7 @@ nav ul {
 
 nav li {
   display:inline-block;
-  margin: auto 1rem;
+  margin: 0.5rem 0;
 }
 
 #contact{
@@ -366,27 +364,13 @@ nav li {
 }
 
 
-/*
-.nav-logo-item{
-max-width: 100%;
-margin: 0.5rem 2.5rem;
-margin-left: 0;
-text-align: center;
-font-family: 'Open Sans', sans-serif;
-color:#3C3C3C;
-font-size: 1.75rem;
-font-weight:bold;
-} */
-
 
 .project-item {
   display: inline-block;
   position:relative;
-  /* line-height: 35px; */
   margin: 0.3rem;
   font-size: 1rem;
   opacity: .999;
-  /* border-radius: 3px; */
 }
 
 .project-item-img{
@@ -476,9 +460,9 @@ font-weight:bold;
   font-weight:600;
   line-height:0.1rem;
   position: absolute;
-  width:100%;
+  /* width:100%; */
   top: 50%;
-  left: 60%;
+  left: 53%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
@@ -529,51 +513,3 @@ font-weight:bold;
   padding-top:0.5rem;
   font-weight:bold;
 }
-
-/*////////////////*/
-
-
-/* @media(min-width:75em){
-
-.rating-img{
-max-width:25%;
-}
-
-
-}
-
-@media(min-width:29.687em){
-
-.rating-img{
-max-width:13%;
-}
-
-
-}
-
-@media(min-width:48.75em) and (max-width:75em){
-.nav-attached-logo{
-max-width:95%;
-padding-top:0.5rem;
-vertical-align:middle;
-}
-
-}
-
-@media(min-width:26.25em){
-.company-title{
-font-size:4rem;
-}
-}
-
-@media(min-width:31.25em) and (max-width:75em){
-.icon-size{
-max-width: 60%;
-}
-}
-
-@media(min-width:75em){
-.icon-size{
-max-width: 40%;
-}
-} */
