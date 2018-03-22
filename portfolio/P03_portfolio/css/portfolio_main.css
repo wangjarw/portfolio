@@ -5,6 +5,10 @@ body {
   background-color:white;
 }
 
+iframe{
+  border:none;
+}
+
 footer{
   font-family: 'Roboto', sans-serif;
   color:#3C3C3C;
