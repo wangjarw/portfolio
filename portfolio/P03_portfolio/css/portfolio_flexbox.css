@@ -7,12 +7,30 @@ thru media queries at the end*/
 	box-sizing: border-box;
 }
 
+/*home*/
+.short-intro-container{
+	-webkit-justify-display:flex;
+	display: -ms-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	-webkit-justify-content: space-around;
+	-ms-justify-content: space-around;
+	justify-content: space-around;
+
+	margin: 1rem 0;;
+}
+
+.short-intro-item{
+	flex-basis:100%;
+}
+
 
 /*portfolio nav*/
 .nav-container{
-	/* display:block;
-	margin:0;
-	text-align:center; */
 	-webkit-justify-display:flex;
 	display: -ms-flex;
 	display: flex;
@@ -25,7 +43,8 @@ thru media queries at the end*/
 	-ms-justify-content: flex-start;
 	justify-content: flex-start;
 
-	margin:0 0;
+	margin:0.8rem 0;
+	flex-direction:column;
 	align-items:center;
 
 }
@@ -96,33 +115,33 @@ thru media queries at the end*/
 /*vid*/
 /* This is the div the video is placed inside */
 .video-container{
-  margin:0 0;
-  width:600px;
+	margin:0 0;
+	width:600px;
 }
 
 /* This code adjusts the size of the video, without distorting the aspect ratio */
 .videowrapper {
-    float: none;
-    clear: both;
-    width: 100%;
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 25px;
-    height: 0;
+	float: none;
+	clear: both;
+	width: 100%;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
 }
 .videowrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 /* Adjust the size for mobile devices */
 @media only screen and (max-width: 599px) {
-.video-container{
-  width:100%;
- }
+	.video-container{
+		width:100%;
+	}
 }
 
 /*overview with vid*/
@@ -142,27 +161,27 @@ thru media queries at the end*/
 }
 
 .overview-vid-item{
-flex-basis:100%;
-padding:0 1.5rem;
+	flex-basis:100%;
+	padding:0 1.5rem;
 }
 
 /*overview with normal image*/
 
- .overview-image-container{
+.overview-image-container{
 
-	 -webkit-justify-display:flex;
-	 -ms-display: flex;
-	 display: flex;
+	-webkit-justify-display:flex;
+	-ms-display: flex;
+	display: flex;
 
-	 -webkit-flex-wrap: wrap;
-	 -ms-flex-wrap: wrap;
-	 flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
 
-	 -webkit-justify-content: space-around;
-	 -ms-justify-content: space-around;
-	 justify-content: space-around;
+	-webkit-justify-content: space-around;
+	-ms-justify-content: space-around;
+	justify-content: space-around;
 
- }
+}
 .overview-item{
 	flex-basis:100%;
 }
@@ -170,16 +189,16 @@ padding:0 1.5rem;
 /*project image*/
 @media(min-width:37.5em) and (max-width:56.25em){
 	figure{
-	margin-top: 1rem;
-	margin-left: 10%;
+		margin-top: 1rem;
+		margin-left: 10%;
 	}
 
 	.project-image{
-	  max-width:80%;
+		max-width:80%;
 	}
 
 	figCaption{
-	  max-width:70%;
+		max-width:70%;
 	}
 
 }
@@ -187,8 +206,8 @@ padding:0 1.5rem;
 @media(min-width:56.25em){
 
 	figure{
-	margin-top: 1rem;
-	margin-left: 15%;
+		margin-top: 1rem;
+		margin-left: 15%;
 	}
 
 	.project-image{
@@ -206,11 +225,14 @@ padding:0 1.5rem;
 
 /*Nav*/
 /*port nav*/
-@media(min-width:49.375em){
+@media(min-width:31.25em){
+
+	.nav-logo{
+		margin-right:auto;
+	}
 
 	.nav-container{
-
-		/* display: -webkit-flex;
+		-webkit-justify-display:flex;
 		display: -ms-flex;
 		display: flex;
 
@@ -220,7 +242,10 @@ padding:0 1.5rem;
 
 		-webkit-justify-content: flex-start;
 		-ms-justify-content: flex-start;
-		justify-content: flex-start; */
+		justify-content: flex-start;
+
+		flex-direction:row;
+		margin:0.8rem 0;
 
 	}
 }
@@ -233,7 +258,7 @@ padding:0 1.5rem;
 	}
 
 	.project-hover-text{
-	  font-size: 1rem;
+		font-size: 1rem;
 	}
 
 	.recent-project-item{
@@ -241,16 +266,14 @@ padding:0 1.5rem;
 	}
 
 	#recent-project-footer{
-	  padding-top:1.5rem;
-	  position:absolute;
-	  width:100%;
-	  bottom:0;
-	  left:0;
-	   background-color:#EAE9E9;
+		padding-top:1.5rem;
+		width:100%;
+		bottom:0;
+		background-color:#EAE9E9;
 	}
 
 	.overview-vid-item{
-	flex-basis:45%;
+		flex-basis:45%;
 	}
 
 	.overview-item{
@@ -273,16 +296,14 @@ padding:0 1.5rem;
 	}
 
 	#recent-project-footer{
-	  padding-top:1.5rem;
-	  position:absolute;
-	  width:100%;
-	  bottom:0;
-	  left:0;
-	   background-color:#EAE9E9;
+		padding-top:1.5rem;
+		width:100%;
+		bottom:0;
+		background-color:#EAE9E9;
 	}
 
 	.overview-vid-item{
-	flex-basis:50%;
+		flex-basis:50%;
 	}
 
 	.overview-item{
@@ -290,7 +311,7 @@ padding:0 1.5rem;
 	}
 
 	.styling-bullet{
-	  padding-left:0;
+		padding-left:0;
 	}
 }
 
@@ -302,27 +323,37 @@ padding:0 1.5rem;
 	}
 
 	#photo_one{
-	  display:none;
+		display:none;
 	}
 
 	#photo_two{
-	  display:flex;
+		display:flex;
+		margin:auto;
 	}
 }
 
 @media(min-width:56.25em){
-
+	
 	.about-item{
 		flex-basis:50%;
 	}
 
 	#photo_one{
-	  display:none;
+		display:none;
 	}
 
 	#photo_two{
-	  display:flex;
+		display:flex;
+		margin:auto;
 	}
 
+
+}
+
+/*home*/
+@media(min-width:37.5em){
+	.short-intro-item{
+		flex-basis:45%;
+	}
 
 }

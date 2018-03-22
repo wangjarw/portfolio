@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
 body {
   /* #EAE9E9 */
   background-color:white;
@@ -15,6 +17,19 @@ h1{
   color:#3C3C3C;
 }
 
+.chinese-name{
+  display:inline-block;
+  font-family: ‘Noto Sans TC’, sans-serif;
+  line-height:2.5rem;
+  font-weight:200;
+  margin:1rem 0.8rem;
+}
+
+.intro-description{
+  max-width:100%;
+  margin:0 0.8rem;
+}
+
 h2 {
   margin-top: 0;
   margin-bottom: 0.5em;
@@ -22,7 +37,6 @@ h2 {
   font-family:'Roboto', sans-serif;
   font-weight:bolder;
 }
-
 .project-name-vid, .project-title-vid{
   color:white;
   margin-left:1.5rem;
@@ -44,6 +58,11 @@ h3{
 
 img{
   max-width:60%;
+}
+
+.home-img{
+  max-width:100%;
+  margin-top:1rem;
 }
 
 p{
@@ -70,7 +89,7 @@ figCaption{
 }
 
 figure{
-margin: 1rem 0.5rem;
+  margin: 1rem 0.5rem;
 }
 
 .project-image{
@@ -84,7 +103,7 @@ margin: 1rem 0.5rem;
 #contact{
   font-family:'Roboto', sans-serif;
   display:inline-block;
-  font-size:0.75rem;
+  font-size:0.8rem;
   color:#3C3C3C;
   line-height:1rem;
   max-width:100%;
@@ -97,6 +116,7 @@ margin: 1rem 0.5rem;
 
 #photo_one{
   display:flex;
+  margin:auto;
 }
 
 #photo_two{
@@ -258,24 +278,25 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
 }
 
 .nav-container ul{
-  padding-left:0;
   width: 100%;
+  list-style: none;
 }
 
-.nav-logo{
-  margin-right:auto;
+nav ul{
+  padding-left:0;
 }
+
 
 
 /* .nav-logo-item{
-  display:inline-block;
-  margin:0.5rem 0;
-  margin-left:0;
-  font-family: 'Roboto', sans-serif;
-  color:#3C3C3C;
-  font-size: 1.5rem;
-  text-align:center;
-  font-weight:bold;
+display:inline-block;
+margin:0.5rem 0;
+margin-left:0;
+font-family: 'Roboto', sans-serif;
+color:#3C3C3C;
+font-size: 1.5rem;
+text-align:center;
+font-weight:bold;
 } */
 .main-nav-accent-one:before{
   content: "";
@@ -319,10 +340,6 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
 
 nav {
   width: 100%;
-}
-nav ul {
-  list-style: none;
-  /* padding-left:0; */
 }
 
 nav li {
@@ -447,9 +464,9 @@ nav li {
   font-weight:600;
   line-height:0.1rem;
   position: absolute;
-  width:100%;
+  max-width:100%;
   top: 50%;
-  left: 60%;
+  left: 53%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
@@ -481,8 +498,8 @@ nav li {
 #recent-project-footer{
   padding-top:1.5rem;
   width:100%;
-margin-bottom:0;
-   background-color:#EAE9E9;
+  margin-bottom:0;
+  background-color:#EAE9E9;
 }
 
 .recent-project-item {
@@ -532,36 +549,36 @@ margin-bottom:0;
   height: 100%;
 }
 
-.project-overlay{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: .7;
-  background-color: #fff;
+/* .project-overlay{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: .7;
+background-color: #fff;
 }
 
 .project-description{
-  line-height:1.3rem;
+line-height:1.3rem;
 }
 
 
 .project-hover-text{
-  color: #3C3C3C;
-  font-size: 0.8rem;
-  font-weight:600;
-  line-height:0.1rem;
-  position: absolute;
-  width:100%;
-  top: 50%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
+color: #3C3C3C;
+font-size: 0.8rem;
+font-weight:600;
+line-height:0.1rem;
+position: absolute;
+width:100%;
+top: 50%;
+left: 60%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+} */
 
 /*footer*/
 footer{
