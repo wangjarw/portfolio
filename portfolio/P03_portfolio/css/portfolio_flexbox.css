@@ -229,6 +229,7 @@ thru media queries at the end*/
 
 	.nav-logo{
 		margin-right:auto;
+		margin-left:2.3rem;
 	}
 
 	.nav-container{
@@ -333,7 +334,7 @@ thru media queries at the end*/
 }
 
 @media(min-width:56.25em){
-	
+
 	.about-item{
 		flex-basis:50%;
 	}
