@@ -32,7 +32,7 @@ section:not([id]) {
 
 h1{
 
-  font-family: 'Kalam', cursive;
+  font-family: 'Amiri', serif;
   color:#3C3C3C;
 
 }
@@ -53,8 +53,7 @@ section h2 {
   margin-top: 0;
   margin-bottom: 0.5em;
   color:#3C3C3C;
-  font-family: 'Open Sans', sans-serif;
-  font-weight:bolder;
+  font-family: 'Amiri', serif;
 }
 
 section h3{
