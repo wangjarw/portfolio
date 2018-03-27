@@ -21,7 +21,7 @@ thru media queries at the end*/
 	-ms-justify-content: space-around;
 	justify-content: space-around;
 
-	margin: 1rem 0;;
+	margin: 4rem 0;;
 }
 
 .short-intro-item{
@@ -229,6 +229,7 @@ thru media queries at the end*/
 
 	.nav-logo{
 		margin-right:auto;
+		margin-left:2.3rem;
 	}
 
 	.nav-container{
@@ -333,7 +334,7 @@ thru media queries at the end*/
 }
 
 @media(min-width:56.25em){
-	
+
 	.about-item{
 		flex-basis:50%;
 	}
@@ -356,4 +357,24 @@ thru media queries at the end*/
 		flex-basis:45%;
 	}
 
+}
+
+/*h2 in project*/
+@media(min-width:31.25em) and (max-width:50em){
+
+	.project-section-title{
+	  margin-left:3rem;
+	}
+}
+@media(min-width:50em) and (max-width:60.25em){
+
+	.project-section-title{
+	  margin-left:5rem;
+	}
+}
+
+@media(min-width:60.25em){
+	.project-section-title{
+		margin-left:9rem;
+	}
 }
