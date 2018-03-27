@@ -358,3 +358,23 @@ thru media queries at the end*/
 	}
 
 }
+
+/*h2 in project*/
+@media(min-width:31.25em) and (max-width:50em){
+
+	.project-section-title{
+	  margin-left:3rem;
+	}
+}
+@media(min-width:50em) and (max-width:60.25em){
+
+	.project-section-title{
+	  margin-left:5rem;
+	}
+}
+
+@media(min-width:60.25em){
+	.project-section-title{
+		margin-left:9rem;
+	}
+}
