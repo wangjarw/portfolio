@@ -44,7 +44,7 @@ h2 {
   font-size:1.2rem;
   font-weight:bolder;
 }
-/* .project-name-vid, .project-title-vid{
+.project-name-vid, .project-title-vid{
   color:#3C3C3C;
   margin-left:1.5rem;
 }
@@ -53,7 +53,7 @@ h2 {
   color:#3C3C3C;
   margin-left:2.3rem;
   margin-bottom:0.5rem;
-} */
+}
 
 .project-section-title{
   color:#3C3C3C;
@@ -456,7 +456,7 @@ nav li {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: .7;
+  opacity: .5;
   background-color: #fff;
 }
 
