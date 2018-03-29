@@ -277,10 +277,6 @@ thru media queries at the end*/
 		flex-basis:45%;
 	}
 
-	.overview-item{
-		flex-basis:50%;
-	}
-
 }
 
 @media(min-width:56.25em){
@@ -307,14 +303,23 @@ thru media queries at the end*/
 		flex-basis:50%;
 	}
 
+	/* .overview-item{
+		flex-basis:50%;
+	} */
+}
+
+/*proposal overview*/
+@media(min-width:43.75em){
 	.overview-item{
 		flex-basis:50%;
 	}
 
-	.styling-bullet{
-		padding-left:0;
+	.overview-image-item{
+	  padding:0 2rem;
 	}
 }
+
+
 
 /*about*/
 @media (min-width:40.625em) and (max-width:56.25em){
