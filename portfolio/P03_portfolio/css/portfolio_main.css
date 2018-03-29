@@ -49,10 +49,17 @@ h2 {
   margin-left:1.5rem;
 }
 
-.project-name, .project-title{
+.project-name{
   color:#3C3C3C;
-  margin-left:2.3rem;
-  margin-bottom:0.5rem;
+  margin-left:1rem;
+  margin-bottom:0.8rem;
+}
+
+.project-title{
+  color:#3C3C3C;
+  margin-left:1rem;
+  margin-top: 1rem;
+  margin-bottom:0.8rem;
 }
 
 .project-section-title{
@@ -143,7 +150,7 @@ figure{
 }
 
 /*ul*/
-.styling-bullet{
+/* .styling-bullet{
   font-family: 'Roboto', sans-serif;
   color:white;
   font-weight:bold;
@@ -154,16 +161,28 @@ figure{
 
 .styling-bullet li{
   max-width:100%;
-}
+} */
 
 /*overview image*/
 .overview-image-item{
   max-width:100%;
-  padding:0 2.4rem;
+  padding:0 1rem;
+}
+
+.overview-subtitle{
+padding:0 0;
+margin-left:1rem;
+}
+
+.overview-description{
+  margin-top:0.5rem;
+  margin-bottom:0;
+  font-size:1.1rem;
+  margin-left:1rem;
 }
 
 /*vid and overview*/
-.overview-accent-color-one{
+/* .overview-accent-color-one{
   background-color:rgba(51, 157, 139, .8);
   padding: 1rem 0;
 }
@@ -171,7 +190,7 @@ figure{
 .overview-accent-color-two{
   background-color:rgba(179, 95, 94, 0.9);
   padding: 1rem 0;
-}
+} */
 
 /*for footer nav link*/
 a{
