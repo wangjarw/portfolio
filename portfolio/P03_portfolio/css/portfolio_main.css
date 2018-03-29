@@ -190,6 +190,16 @@ max-width:100%;
   color:rgb(179, 95, 94);
 }
 
+.overview-section{
+  padding-top:1rem;
+  padding-bottom:1rem;
+  background-color:rgba(219, 219, 219, .35);
+}
+
+.nav-in-project-detail{
+  margin-bottom:0;
+}
+
 /*for footer nav link*/
 a{
   text-decoration: none;
