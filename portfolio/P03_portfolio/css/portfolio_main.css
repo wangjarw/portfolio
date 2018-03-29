@@ -44,9 +44,14 @@ h2 {
   font-size:1.2rem;
   font-weight:bolder;
 }
-.project-name-vid, .project-title-vid{
+.project-name-vid{
   color:#3C3C3C;
-  margin-left:1.5rem;
+  margin-left:1rem;
+}
+
+.project-title-vid{
+  color:#3C3C3C;
+  margin-left:1rem;
 }
 
 .project-name{
