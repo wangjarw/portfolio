@@ -44,9 +44,15 @@ h2 {
   font-size:1.2rem;
   font-weight:bolder;
 }
-.project-name-vid, .project-title-vid{
+.project-name-vid{
   color:#3C3C3C;
-  margin-left:1.5rem;
+  margin-left:1rem;
+}
+
+.project-title-vid{
+  color:#3C3C3C;
+  margin-top:1rem;
+  margin-left:1rem;
 }
 
 .project-name{
@@ -148,20 +154,6 @@ figure{
 #photo_two{
   display:none;
 }
-
-/*ul*/
-/* .styling-bullet{
-font-family: 'Roboto', sans-serif;
-color:white;
-font-weight:bold;
-font-size:0.9rem;
-line-height:1.3rem;
-list-style: none;
-}
-
-.styling-bullet li{
-max-width:100%;
-} */
 
 /*overview image*/
 .overview-image-item{
