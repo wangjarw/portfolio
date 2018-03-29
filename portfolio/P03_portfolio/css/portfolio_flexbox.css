@@ -313,6 +313,10 @@ thru media queries at the end*/
 	.overview-item{
 		flex-basis:50%;
 	}
+
+	.overview-image-item{
+	  padding:0 2rem;
+	}
 }
 
 
