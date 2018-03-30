@@ -24,16 +24,17 @@ h1{
 }
 
 .chinese-name{
-  display:inline-block;
+  display:block;
   font-family: ‘Noto Sans TC’, sans-serif;
   line-height:2.5rem;
   font-weight:200;
-  margin:1rem 0.8rem;
+  text-align:center;
 }
 
 .intro-description{
   max-width:100%;
-  margin:0 0.8rem;
+  margin:0 2rem;
+  text-align:center;
 }
 
 h2 {
