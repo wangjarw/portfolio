@@ -22,7 +22,7 @@ thru media queries at the end*/
 	justify-content: space-around;
 
 	margin: 10rem 0;
-/* 
+/*
 	-webkit-flex-flow: column;
 	-ms-flex-flow:column;
 	flex-flow: column; */
@@ -223,7 +223,7 @@ thru media queries at the end*/
 	}
 
 	.project-paragraph{
-		max-width:70%;
+		max-width:60%;
 	}
 }
 
