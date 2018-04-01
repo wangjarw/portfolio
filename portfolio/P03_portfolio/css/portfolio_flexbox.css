@@ -21,7 +21,12 @@ thru media queries at the end*/
 	-ms-justify-content: space-around;
 	justify-content: space-around;
 
-	margin: 4rem 0;;
+	margin: 10rem 0;
+/*
+	-webkit-flex-flow: column;
+	-ms-flex-flow:column;
+	flex-flow: column; */
+
 }
 
 .short-intro-item{
@@ -180,6 +185,10 @@ thru media queries at the end*/
 	-ms-justify-content: space-around;
 	justify-content: space-around;
 
+	width:80%;
+	margin:0 auto;
+	margin-top:2rem;
+
 }
 .overview-item{
 	flex-basis:100%;
@@ -218,7 +227,7 @@ thru media queries at the end*/
 	}
 
 	.project-paragraph{
-		max-width:70%;
+		max-width:60%;
 	}
 }
 
@@ -309,12 +318,15 @@ thru media queries at the end*/
 
 /*imageoverview*/
 @media(min-width:43.75em){
-	.overview-item{
-		flex-basis:50%;
-	}
 
 	.overview-image-item{
 	  padding:0 2rem;
+	}
+}
+
+@media(min-width:56.25em){
+	.overview-item{
+		flex-basis:50%;
 	}
 }
 

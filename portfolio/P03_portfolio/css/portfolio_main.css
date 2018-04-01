@@ -24,16 +24,17 @@ h1{
 }
 
 .chinese-name{
-  display:inline-block;
+  display:block;
   font-family: ‘Noto Sans TC’, sans-serif;
   line-height:2.5rem;
   font-weight:200;
-  margin:1rem 0.8rem;
+  text-align:center;
 }
 
 .intro-description{
   max-width:100%;
-  margin:0 0.8rem;
+  margin:0 2rem;
+  text-align:center;
 }
 
 h2 {
@@ -55,17 +56,35 @@ h2 {
   margin-left:1rem;
 }
 
+.preview-section-container{
+  	border-bottom-style: solid;
+    border-bottom-width:1.5px;
+    border-bottom-color:#DBDBDB;
+    padding-bottom:5rem;
+}
+
+
 .project-name{
-  color:#3C3C3C;
+  color:#636363;
   margin-left:1rem;
   margin-bottom:0.8rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .project-title{
   color:#3C3C3C;
   margin-left:1rem;
+  margin-top: 6.5rem;
+  margin-bottom:0.8rem;
+  font-size:3.5rem;
+  font-family: 'Amiri', serif;
+
+  /* color:#3C3C3C;
+  margin-left:1rem;
   margin-top: 1rem;
   margin-bottom:0.8rem;
+  font-size:3rem;
+  font-family: 'Amiri', serif; */
 }
 
 .project-section-title{
@@ -97,18 +116,22 @@ img{
 }
 
 p{
-  font-family: 'Amiri', serif;
-  font-size:1.25rem;
+  /* font-family: 'Amiri', serif; */
+  font-family: 'Open Sans', sans-serif;
+  /* font-size:1.3rem; */
   max-width:80%;
-  line-height:1.5rem;
+  line-height:1.6rem;
+  color:rgba(0,0,0,.84);
 }
 
 .project-paragraph{
+  font-family: 'Amiri', serif;
+  font-size:1.25rem;
   margin:1rem auto;
 }
 
 .first-paragraph{
-  margin-top:3rem;
+  margin-top:5rem;
 }
 
 figCaption{
@@ -167,19 +190,19 @@ figure{
 }
 
 .overview-description{
-  margin-top:0.5rem;
+  margin-top:0.2rem;
   margin-bottom:0;
-  font-size:1.1rem;
+  font-size:1rem;
   margin-left:1rem;
 }
 
 /*vid and overview*/
 .overview-accent-color-one{
-  color:rgb(51, 157, 139);
+  color:#3C3C3C;
 }
 
 .overview-accent-color-two{
-  color:rgb(179, 95, 94);
+  color:#3C3C3C;
 }
 
 .overview-section{
