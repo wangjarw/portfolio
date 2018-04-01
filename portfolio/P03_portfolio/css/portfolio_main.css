@@ -60,13 +60,23 @@ h2 {
   color:#3C3C3C;
   margin-left:1rem;
   margin-bottom:0.8rem;
+  font-family: 'Amiri', serif;
 }
 
 .project-title{
   color:#3C3C3C;
   margin-left:1rem;
+  margin-top: 2rem;
+  margin-bottom:0.8rem;
+  font-size:3rem;
+  font-family: 'Amiri', serif;
+
+  /* color:#3C3C3C;
+  margin-left:1rem;
   margin-top: 1rem;
   margin-bottom:0.8rem;
+  font-size:3rem;
+  font-family: 'Amiri', serif; */
 }
 
 .project-section-title{
