@@ -141,7 +141,7 @@ p{
 }
 
 
-.in-para-overview-title h3{
+.in-para-overview-title{
   /* margin-bottom:0;
   margin-top:0.5rem; */
   margin:1rem auto;
@@ -443,7 +443,7 @@ nav li {
   display: inline-block;
   position:relative;
   /* line-height: 35px; */
-  margin: 0.3rem;
+  margin: 0.5rem;
   font-size: 1rem;
   opacity: .999;
   /* border-radius: 3px; */
