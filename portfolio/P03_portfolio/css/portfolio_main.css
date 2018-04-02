@@ -140,9 +140,11 @@ p{
   margin:1rem auto;
 }
 
-.in-para-overview-title{
-  margin-bottom:0;
-  margin-top:0.5rem;
+
+.in-para-overview-title h3{
+  /* margin-bottom:0;
+  margin-top:0.5rem; */
+  margin:1rem auto;
   padding-bottom:0.5rem;
 }
 
@@ -160,7 +162,8 @@ figCaption{
   max-width:100%;
   color:#3C3C3C;
   padding-bottom:1rem;
-  font-size:0.9rem;
+  padding-top:0.7rem;
+  font-size:1rem;
 }
 
 figure{
@@ -222,7 +225,7 @@ figure{
 }
 
 .overview-accent-color-two{
-  color:#3C3C3C;
+  color:#339D8B;
 }
 
 .overview-section{
