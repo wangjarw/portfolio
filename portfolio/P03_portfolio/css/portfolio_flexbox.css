@@ -170,6 +170,8 @@ thru media queries at the end*/
 
 .overview-vid-item{
 	flex-basis:100%;
+
+	/* padding-left:3.5rem; */
 }
 
 /*overview with normal image*/
