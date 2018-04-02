@@ -214,8 +214,9 @@ thru media queries at the end*/
 @media(min-width:56.25em){
 
 	figure{
-		margin-top: 1rem;
-		margin-left: 15%;
+		margin-top: 2rem;
+		margin-left: 30%;
+		max-width:58%;
 	}
 
 	.project-image{
@@ -317,16 +318,18 @@ thru media queries at the end*/
 }
 
 /*imageoverview*/
-@media(min-width:43.75em){
-
-	.overview-image-item{
-		padding:0 2rem;
-	}
-}
 
 @media(min-width:64.375em){
 	.overview-item{
 		flex-basis:50%;
+	}
+
+	.overview-description{
+		margin-bottom:0;
+	}
+
+	.overview-image-item{
+		padding:auto 2rem;
 	}
 }
 
@@ -389,16 +392,30 @@ thru media queries at the end*/
 }
 
 /*project overview title*/
-@media(min-width:31.25em){
+@media(min-width:31.25em) and(max-width:60.25em){
 
 	.project-title{
 		color:#3C3C3C;
 		margin-left:1rem;
-		margin-top: 6.5rem;
+		margin-top: 1rem;
 		margin-bottom:0.8rem;
 		font-size:3.5rem;
 		font-family: 'Amiri', serif;
 	}
+}
+
+@media(min-width:60.25em){
+
+	.project-title{
+			color:#3C3C3C;
+			margin-left:1rem;
+			margin-top: 6.5rem;
+			margin-bottom:0.8rem;
+			font-size:3.5rem;
+			font-family: 'Amiri', serif;
+		}
+	}
+
 }
 
 @media(min-width:50em) and (max-width:60.25em){
