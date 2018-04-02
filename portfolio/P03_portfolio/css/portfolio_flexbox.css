@@ -170,8 +170,6 @@ thru media queries at the end*/
 
 .overview-vid-item{
 	flex-basis:100%;
-
-	/* padding-left:3.5rem; */
 }
 
 /*overview with normal image*/
@@ -441,6 +439,10 @@ thru media queries at the end*/
 		margin-bottom:0.8rem;
 		font-size:3.5rem;
 		font-family: 'Amiri', serif;
+	}
+
+	.overview-vid-item{
+		padding-left:3.5rem;
 	}
 }
 
