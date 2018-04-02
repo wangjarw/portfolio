@@ -58,7 +58,7 @@ h2 {
 
 .preview-section-container{
   	border-bottom-style: solid;
-    border-bottom-width:1.5px;
+    border-bottom-width:1.2px;
     border-bottom-color:#DBDBDB;
     padding-bottom:5rem;
 }
@@ -395,7 +395,7 @@ nav ul{
 .nav-logo-item{
   display:inline-block;
   margin:0.5rem 0;
-  margin-left:0;
+  margin-left:0rem;
   font-family: 'Roboto', sans-serif;
   color:#3C3C3C;
   font-size: 1.5rem;

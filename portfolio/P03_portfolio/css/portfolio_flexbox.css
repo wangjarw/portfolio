@@ -163,6 +163,9 @@ thru media queries at the end*/
 	-ms-justify-content: flex-start;
 	justify-content: flex-start;
 
+	width:90%;
+	margin:0 auto;
+	margin-top:2rem;
 }
 
 .overview-vid-item{
@@ -232,33 +235,6 @@ thru media queries at the end*/
 	}
 }
 
-/*Nav*/
-/*port nav*/
-@media(min-width:31.25em){
-
-	.nav-logo{
-		margin-right:auto;
-		margin-left:2.3rem;
-	}
-
-	.nav-container{
-		-webkit-justify-display:flex;
-		display: -ms-flex;
-		display: flex;
-
-		-webkit-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-
-		-webkit-justify-content: flex-start;
-		-ms-justify-content: flex-start;
-		justify-content: flex-start;
-
-		flex-direction:row;
-		margin:0.8rem 0;
-
-	}
-}
 
 
 /*porject display*/
@@ -336,7 +312,7 @@ thru media queries at the end*/
 @media(min-width:50em){
 	.overview-vid-item{
 		flex-basis:50%;
-		padding:0 2rem;
+		/* padding:0 2rem; */
 	}
 }
 
@@ -428,5 +404,37 @@ thru media queries at the end*/
 @media(min-width:60.25em){
 	.project-section-title{
 		margin-left:9rem;
+	}
+}
+
+/*Nav*/
+/*port nav*/
+@media(min-width:31.25em){
+
+	.nav-logo{
+		margin-right:auto;
+		margin-left:2.3rem;
+	}
+
+	.nav-logo-item{
+		margin-left:3.5rem;
+	}
+
+	.nav-container{
+		-webkit-justify-display:flex;
+		display: -ms-flex;
+		display: flex;
+
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+
+		-webkit-justify-content: flex-start;
+		-ms-justify-content: flex-start;
+		justify-content: flex-start;
+
+		flex-direction:row;
+		margin:0.8rem 0;
+
 	}
 }
