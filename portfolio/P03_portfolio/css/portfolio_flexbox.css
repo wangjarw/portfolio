@@ -324,7 +324,7 @@ thru media queries at the end*/
 	}
 }
 
-@media(min-width:56.25em){
+@media(min-width:64.375em){
 	.overview-item{
 		flex-basis:50%;
 	}

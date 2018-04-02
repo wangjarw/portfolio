@@ -106,6 +106,7 @@ h3{
 }
 
 
+
 img{
   max-width:60%;
 }
@@ -130,7 +131,17 @@ p{
   margin:1rem auto;
 }
 
+.in-para-overview-title{
+  margin-bottom:0;
+  margin-top:0.5rem;
+  padding-bottom:0.5rem;
+}
+
 .first-paragraph{
+  margin-top:3rem;
+}
+
+.first-title{
   margin-top:5rem;
 }
 
