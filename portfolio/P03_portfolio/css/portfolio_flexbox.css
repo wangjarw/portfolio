@@ -340,6 +340,10 @@ thru media queries at the end*/
 		flex-basis:50%;
 	}
 
+	.about-text{
+	  padding-left:4rem;
+	}
+
 	#photo_one{
 		display:none;
 	}
