@@ -114,7 +114,8 @@ section code {
   background-color: #EEE;
   padding: 0.5em 0.75em;
   display: block;
-  max-width:90%
+  max-width:90%;
+  font-size:0.9rem;
 }
 
 
@@ -449,7 +450,9 @@ nav li {
 }
 
 .project-description{
-  line-height:1.3rem;
+  font-family: 'Amiri', serif;
+  line-height:1.6rem;
+  font-size:1.3rem;
 }
 
 
