@@ -291,7 +291,7 @@ nav a:hover, nav a:focus {
 }
 
 /* Styling for the navigation button */
-.main-nav-accent-one {
+.main-nav-accent-one{
   display: inline-block;
   font-family:'Roboto', sans-serif;
   text-decoration: none;
@@ -345,7 +345,7 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
   transform: scaleX(1);
 }
 
-.main-nav-accent-one:hover, .main-nav-accent-one:focus {
+.main-nav-accent-one:hover, .main-nav-accent-one:focus{
   color:#B35F5E;
 }
 
@@ -407,6 +407,7 @@ nav ul{
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
 .nav-logo-item{
   display:inline-block;
   margin:0.5rem 0;
@@ -422,6 +423,17 @@ nav ul{
 }
 
 .nav-logo-item:hover, .nav-logo-item:focus{
+  color:#339D8B;
+}
+
+.on-page-one{
+  color:#B35F5E;
+}
+.on-page-two{
+  color:#D69D53;
+}
+
+.on-page-home{
   color:#339D8B;
 }
 
