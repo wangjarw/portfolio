@@ -21,11 +21,7 @@ thru media queries at the end*/
 	-ms-justify-content: space-around;
 	justify-content: space-around;
 
-	margin: 10rem 0;
-	/*
-	-webkit-flex-flow: column;
-	-ms-flex-flow:column;
-	flex-flow: column; */
+	margin:3.5rem 0;
 
 }
 
@@ -401,6 +397,36 @@ thru media queries at the end*/
 		margin:0.8rem 0;
 
 	}
+
+	/*homapage image*/
+	#big-decoration{
+		display:block;
+	  max-width:100%;
+	  width:100%;
+	  margin:0.6rem auto;
+	}
+
+	#small-decoration{
+	  display:none;
+	}
+
+	.short-intro-container{
+		-webkit-justify-display:flex;
+		display: -ms-flex;
+		display: flex;
+
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+
+		-webkit-justify-content: space-around;
+		-ms-justify-content: space-around;
+		justify-content: space-around;
+
+		margin: 7rem 0;
+
+	}
+
 }
 
 /*project overview title*/
