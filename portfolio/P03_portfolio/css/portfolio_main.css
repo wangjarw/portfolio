@@ -136,9 +136,10 @@ img{
 }
 
 #big-decoration{
-  max-width:100%;
+  /* max-width:100%;
   width:100%;
-  margin:0.6rem auto;
+  margin:0.6rem auto; */
+  display:none;
 }
 
 .home-img{

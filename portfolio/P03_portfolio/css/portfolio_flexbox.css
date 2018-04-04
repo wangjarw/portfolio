@@ -401,6 +401,14 @@ thru media queries at the end*/
 		margin:0.8rem 0;
 
 	}
+
+	/*homapage image*/
+	#big-decoration{
+		display:block;
+	  max-width:100%;
+	  width:100%;
+	  margin:0.6rem auto;
+	}
 }
 
 /*project overview title*/
