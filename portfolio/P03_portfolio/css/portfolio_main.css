@@ -37,6 +37,7 @@ h1{
   text-align:center;
 }
 
+
 h2 {
   margin-top: 0;
   margin-bottom: 0.5em;
@@ -131,6 +132,12 @@ h3{
 
 img{
   max-width:60%;
+}
+
+#big-decoration{
+  max-width:100%;
+  width:100%;
+  margin:0.6rem auto;
 }
 
 .home-img{
