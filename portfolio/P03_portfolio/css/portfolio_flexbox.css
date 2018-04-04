@@ -301,8 +301,8 @@ thru media queries at the end*/
 	}
 
 	.overview-image-item{
-		padding:auto 2rem;
-	}
+		padding:0 2rem;
+
 }
 
 @media(min-width:50em){
