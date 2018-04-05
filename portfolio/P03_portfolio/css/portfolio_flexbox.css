@@ -302,7 +302,7 @@ thru media queries at the end*/
 
 	.overview-image-item{
 		padding:0 2rem;
-		
+
 	}
 }
 
@@ -312,24 +312,6 @@ thru media queries at the end*/
 		/* padding:0 2rem; */
 	}
 }
-
-
-/*about*/
-/* @media (min-width:40.625em) and (max-width:56.25em){
-
-.about-item{
-flex-basis:50%;
-}
-
-#photo_one{
-display:flex;
-margin:auto;
-}
-
-#photo_two{
-display:none;
-}
-} */
 
 @media(min-width:56.25em){
 
@@ -478,7 +460,7 @@ display:none;
 	}
 }
 
-}
+
 
 @media(min-width:50em) and (max-width:60.25em){
 
