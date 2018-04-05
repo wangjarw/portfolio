@@ -254,10 +254,6 @@ thru media queries at the end*/
 		background-color:#EAE9E9;
 	}
 
-	/* .overview-vid-item{
-	flex-basis:45%;
-	} */
-
 }
 
 @media(min-width:56.25em){
@@ -279,14 +275,6 @@ thru media queries at the end*/
 		bottom:0;
 		background-color:#EAE9E9;
 	}
-
-	/* .overview-vid-item{
-	flex-basis:50%;
-	} */
-
-	/* .overview-item{
-	flex-basis:50%;
-	} */
 }
 
 /*imageoverview*/
@@ -309,7 +297,6 @@ thru media queries at the end*/
 @media(min-width:50em){
 	.overview-vid-item{
 		flex-basis:50%;
-		/* padding:0 2rem; */
 	}
 }
 
