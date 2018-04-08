@@ -38,6 +38,10 @@ h1{
   text-align:center;
 }
 
+#intro-emphasis{
+  font-weight:bold;
+  font-style:normal;
+}
 
 h2 {
   margin-top: 0;
